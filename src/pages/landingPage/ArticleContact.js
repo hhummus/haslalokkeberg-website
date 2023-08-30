@@ -7,8 +7,8 @@ function ArticleContact() {
         </div>
         <div className="row">
           <p className="articleContactP">
-            Vi håper du tar kontakt med oss — vi håper også at du vil sjekke ut
-            vårt tidsskrift kalt Kontakt.
+            Vi håper du tar kontakt med oss - vi håper også at du vil sjekke ut{" "}
+            <span className="spanBlock"> vårt tidsskrift kalt Kontakt.</span>
           </p>
         </div>
         <div className="row articleContactBtnContainer">

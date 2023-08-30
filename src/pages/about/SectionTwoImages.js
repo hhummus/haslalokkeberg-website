@@ -7,7 +7,7 @@ function SectionTwoImages() {
   // displaying each of the 9 last images
   const socialPhotosTwo = SecondNinePhotos.map((image) => {
     return (
-      <div className="col-4">
+      <div className="col">
         <img src={image} alt="social media photos"></img>
       </div>
     );

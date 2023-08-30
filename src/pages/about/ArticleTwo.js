@@ -7,7 +7,7 @@ function ArticleTwo() {
   // displaying each of the 9 images
   const socialPhotos = firstNinePhotos.map((image) => {
     return (
-      <div className="col-4">
+      <div className="col">
         <img src={image} alt="social media photos"></img>
       </div>
     );
