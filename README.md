@@ -1,11 +1,11 @@
 # Website for Hasla-Løkkeberg Agency
 
 **tools**
--- React 
--- CSS
--- Bootstrap 
--- HTML
--- Javascript
+- React 
+ CSS
+ Bootstrap 
+ HTML
+ Javascript
 
 ## Test app locally
 
@@ -16,13 +16,13 @@
 
 ### Ongoing development of site
 
-  -- Mobile view soon to be deployed by Netlify 
-  -- Desktop version comes later. 
+- Mobile view soon to be deployed by Netlify 
+- Desktop version comes later. 
 
    
 #### Current (old) site the customers wanted me to do upgrades upon 
 
- -- www.haslalokkeberg.no
+ - www.haslalokkeberg.no
 
  
 
