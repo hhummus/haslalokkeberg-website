@@ -16,7 +16,7 @@
 
 ### Ongoing development of site
 
-- Mobile view soon to be deployed by Netlify 
+- Mobile view soon to be deployed with Netlify 
 - Desktop version comes later. 
 
    
