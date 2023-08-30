@@ -1,0 +1,114 @@
+.aboutPage {
+    margin-top: 5rem ;
+    color: #273A33;
+}
+.aboutPageTitle {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.aboutPageIntro {
+    margin: 0 0 1.5rem 0;
+    font-size: 16px;
+}
+
+.aboutPageImgContainer {
+    margin: 0 auto;
+    width: 65vw;
+    height: 200px;
+    overflow: hidden;
+}
+
+.aboutPageImageText {
+    font-size: 12px;
+    padding-top: 0.3rem;
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+}
+.getInTouch {
+    margin-top: 1.5rem;
+}
+.getInTouch a{
+    color: #273A33;
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.articleTwo {
+    margin-top: 2rem;
+    padding: 4rem 0;
+    background-color: #273a331f;
+}
+
+.sectionTwoImages {
+    padding: 1rem 0;
+}
+
+.photographsDaily .col-4 {
+   margin-bottom: 0.3rem;
+
+}
+
+.articleTwo .text {
+    margin-bottom: 1.5rem;
+}
+.articleTwoTitle {
+    font-size: 20px;
+}
+.articleTwoP {
+    font-weight: 400;
+    font-size: 16px;
+}
+.articleTwoSmallP {
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+.articleTwoP{
+    margin-bottom: 1.5rem;
+}
+
+.articleFourP {
+    font-size: 16px;
+}
+
+.articleFour {
+    padding: 0 1.5rem 0 1.5rem;
+    background-color: #273a331f;
+    text-align: center;
+}
+
+.articleFour .container {
+    padding: 3rem 0 6rem;
+}
+
+.articleFourTitle {
+    font-size: 16px;
+}
+.linkToSoMe {
+    margin-top: 1.4rem;
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #ffffff59;
+    cursor: pointer;
+    border-radius: 0.1in;
+    text-decoration: none;
+    color: #273A33;
+    font-weight: 600; 
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 667px) {
+    .aboutPageImgContainer,
+    .aboutPageImageText {
+        width: 45%;
+    }
+    .aboutPageImgContainer img {
+        padding: 0;
+    }
+     
+        
+}

@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #273A33;
+    padding: 1.5rem 1rem;
+}
+
+.navbar .container {
+    flex-direction: row-reverse;
+}
+
+.navbar-logo a, .navbar-menu li, .navbar-menu li a {
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+
+.navbar-logo {
+    font-size: 18px;
+}
+
+.navbar-menu {
+    margin-bottom: 0;
+}
