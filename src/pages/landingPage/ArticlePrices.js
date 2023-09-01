@@ -1,5 +1,3 @@
-import pricesImage from "../../img/prislister-mobile.jpg";
-
 function ArticlePrices() {
   return (
     <div className="articlePrices">
@@ -10,12 +8,7 @@ function ArticlePrices() {
               Hva koster det å bestille fotografering av oss?
             </h2>
 
-            <div className="articlePricesImgContainer">
-              <img
-                src={pricesImage}
-                alt="photograph of a person holding a camera amomgst trees"
-              ></img>
-            </div>
+            <div className="articlePricesImgContainer"></div>
           </div>
 
           <div className="col-sm-6 articleprices-col-6">

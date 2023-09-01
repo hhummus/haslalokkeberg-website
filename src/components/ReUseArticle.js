@@ -1,15 +1,8 @@
 import { Link } from "react-router-dom";
 
 function ReUseArticle(props) {
-
-  
   return (
     <div className={props.ReUseArticleContainer}>
-      <img
-        src={props.bgImage}
-        alt="background visuals"
-        className="bgImage"
-      ></img>
       <div className="container">
         <div className="row">
           <h1 className="reUseArticleH1">{props.title}</h1>
