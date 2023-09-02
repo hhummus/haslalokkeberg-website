@@ -6,6 +6,7 @@ import AboutPage from "./pages/AboutPage";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./components/global/ErrorPage";
+import ContactUs from "./pages/contactUs/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,13 @@ const router = createBrowserRouter([
   {
     path: "om-oss",
     element: <AboutPage />,
+    errorElement: <ErrorPage />,
     // bruk når man trykker på om oss
+  },
+  {
+    path: "kontakt-oss",
+    element: <ContactUs />,
+    errorElement: <ErrorPage />,
   },
 ]);
 

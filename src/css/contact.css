@@ -1,0 +1,23 @@
+.contact-intro {
+    margin-top: 3rem;
+}
+.contact-form {
+    padding: 1rem;
+    background-color: #273a331f;
+}
+.form-spacing {
+    margin-bottom: 1rem;
+}
+.form-email {
+    margin-bottom: 2rem;
+}
+.form-spacing label {
+    padding: 0;
+}
+.form-spacing input,
+.form-spacing button {
+    padding: 1rem 0;
+}
+
+
+

@@ -4,7 +4,7 @@ import "../css/aboutPage.css";
 import AboutUs from "./about/AboutUs";
 import ArticleFour from "./about/ArticleFour";
 import ArticleTwo from "./about/ArticleTwo";
-import SectionTwoImages from "./about/SectionTwoImages";
+
 function AboutPage() {
   return (
     <div>
@@ -12,7 +12,6 @@ function AboutPage() {
       <div className="aboutPage">
         <AboutUs />
         <ArticleTwo />
-        <SectionTwoImages />
         <ArticleFour />
         <Footer />
       </div>
