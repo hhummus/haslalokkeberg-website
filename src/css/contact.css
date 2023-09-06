@@ -5,19 +5,65 @@
     padding: 1rem;
     background-color: #273a331f;
 }
-.form-spacing {
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    border: none;
+    border-radius: 0.4ch;
+    outline: none;
+}
+
+.form-submit-btn{
+    background-color: #283a33;
+    color: #fff;
+}
+.form-submit-btn[disabled] {
+    background-color: #283a3399;
+}
+
+.input-field:focus,
+textarea.input-field:focus {
+    box-shadow: -1px 1px 3px 0px;
+}
+
+.contact-form .row {
     margin-bottom: 1rem;
 }
-.form-email {
-    margin-bottom: 2rem;
-}
-.form-spacing label {
+
+.label-field {
     padding: 0;
+    display: block;
 }
-.form-spacing input,
-.form-spacing button {
-    padding: 1rem 0;
+.input-field {
+    padding: 1rem 0.5rem;
 }
 
+.form-submit-btn {
+    margin-top: 1rem;
+    padding: 1rem 0 ;
+}
 
+.form-error {
+    padding: 0;
+    color: rgb(78, 14, 14);
+    font-weight: 500;
+    margin-top: 0.3rem;
+}
 
+.form-success-error {
+    margin: 2rem 0 4rem;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400
+}
+
+@media only screen and (min-width: 667px) { 
+    .contact-intro,
+    .contact-form .container {
+        width: 55vw;
+    }
+    .input-field,
+    .form-submit-btn {
+        padding: 0.5rem;
+    }
+}
