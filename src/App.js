@@ -1,23 +1,17 @@
-import Footer from "./components/global/Footer";
-import Navbar from "./components/global/Navbar";
-import ReUseArticle from "./components/ReUseArticle";
 import "./css/landingPage.css";
+import Footer from "./components/global/Footer";
+import Navbarr from "./components/global/Navbar";
+import ReUseArticle from "./components/ReUseArticle";
 import ArticleContact from "./pages/landingPage/ArticleContact";
 import ArticlePrices from "./pages/landingPage/ArticlePrices";
+import ArticleAbout from "./pages/landingPage/ArticleAbout";
 
 export default function App() {
   return (
     <div>
-      <Navbar />
-      <ReUseArticle
-        ReUseArticleContainer="getToKnowUsCTA"
-        title="Bli bedre kjent med oss"
-        description="Vi elsker å fange øyeblikk. I hverdagen, på 
-      fest, i skogen, på stranden, på reise og i 
-      sofaen hjemme."
-        linkTo="/om-oss"
-        linkButton="Fotoalbum"
-      />
+      <Navbarr />
+      <ArticleAbout />
+
       <ArticlePrices />
 
       <ArticleContact />

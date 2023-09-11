@@ -1,3 +1,4 @@
+
 .contact-intro {
     margin-top: 3rem;
 }
@@ -61,6 +62,9 @@ textarea.input-field:focus {
     .contact-intro,
     .contact-form .container {
         width: 55vw;
+    }
+    .contact-intro {
+        padding-left: 0;
     }
     .input-field,
     .form-submit-btn {

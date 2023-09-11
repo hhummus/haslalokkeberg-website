@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ArticlePrices() {
   return (
     <div className="articlePrices">
@@ -17,11 +19,9 @@ function ArticlePrices() {
               alternative bilder, eventer, bedrift mm og prisene vil fluktuere
               utifra dette.
             </p>
-            <div className="row justify-content-center">
-              <a href="/prislister" className="articlePricesBtn col-10">
-                Til prislister
-              </a>
-            </div>
+            <Link to="/prislister" className="articlePricesBtn">
+              Til prislister
+            </Link>
           </div>
         </div>
       </div>

@@ -16,19 +16,21 @@ function AboutUs() {
             flytte oss dit du er.
           </p>
         </div>
-        <div className="row aboutPageImgContainer">
-          <img
-            src={aboutUsImg}
-            alt="stine hasla and helena løkkeberg in nature"
-          ></img>
+        <div className="aboutPageImgContainer">
+          <div className="row">
+            <img
+              src={aboutUsImg}
+              alt="stine hasla and helena løkkeberg in nature"
+            ></img>
+          </div>
         </div>
         <small className="aboutPageImageText">
-          Hasla-Løkkeberg Agency ble grunnlagt i 2021 av Helena Løkkeberg og
+          Hasla-Løkkeberg Agentur ble grunnlagt i 2021 av Helena Løkkeberg og
           Stine Hasla.
         </small>
         <div className="row">
           <p className="getInTouch">
-            <Link to="/epost">
+            <Link to="/kontakt-oss">
               Har du spørsmål? Kunne du tenkt deg en uforpliktende prat? Klikk
               her for å sende oss en e-post.
             </Link>

@@ -1,6 +1,6 @@
-import Footer from "../components/global/Footer";
-import Navbar from "../components/global/Navbar";
 import "../css/aboutPage.css";
+import Footer from "../components/global/Footer";
+import Navbarr from "../components/global/Navbar";
 import AboutUs from "./about/AboutUs";
 import ArticleFour from "./about/ArticleFour";
 import ArticleTwo from "./about/ArticleTwo";
@@ -8,7 +8,7 @@ import ArticleTwo from "./about/ArticleTwo";
 function AboutPage() {
   return (
     <div>
-      <Navbar />
+      <Navbarr />
       <div className="aboutPage">
         <AboutUs />
         <ArticleTwo />

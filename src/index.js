@@ -1,12 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import "./index.css";
+import ReactDOM from "react-dom/client";
 import App from "./App";
-import AboutPage from "./pages/AboutPage";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AboutPage from "./pages/AboutPage";
 import ErrorPage from "./components/global/ErrorPage";
 import ContactUs from "./pages/contactUs/ContactUs";
+import Prices from "./pages/products/Prices";
 
 const router = createBrowserRouter([
   {
@@ -25,13 +26,20 @@ const router = createBrowserRouter([
     path: "kontakt-oss",
     element: <ContactUs />,
     errorElement: <ErrorPage />,
+    // bruk når man trykker på kontakt
+  },
+  {
+    path: "prislister",
+    element: <Prices />,
+    errorElement: <ErrorPage />,
+    // bruk når man trykker på prislister
   },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} />/
   </React.StrictMode>
 );
 

@@ -1,3 +1,4 @@
+
 .aboutPage {
     margin-top: 5rem ;
     color: #273A33;
@@ -18,11 +19,14 @@
     height: 200px;
     overflow: hidden;
 }
+.aboutPageImageContainer img {
+    padding: 0;
+}
 
 .aboutPageImageText {
     font-size: 12px;
     padding-top: 0.3rem;
-    width: 65%;
+    width: 65vw;
     margin: 0 auto;
     display: block;
 }
@@ -47,10 +51,10 @@
     padding: 1rem 0;
 }
 
-.photographsDaily .col {
-   margin-bottom: 0.3rem;
-    
+.photographsDaily img {
+   margin:0 0.3rem 0.3rem 0; 
 }
+
 
 .articleTwo .text {
     margin-bottom: 1.5rem;
@@ -104,11 +108,12 @@
 @media only screen and (min-width: 667px) {
     .aboutPageImgContainer,
     .aboutPageImageText {
-        width: 45%;
+        width: 35%;
     }
     .aboutPageImgContainer img {
         padding: 0;
     }
+   
      
         
 }

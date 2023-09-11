@@ -1,17 +1,18 @@
-import Navbar from "../../components/global/Navbar";
+import Navbarr from "../../components/global/Navbar";
 import ContactForm from "./ContactForm";
+import Footer from "../../components/global/Footer";
 import "../../css/contact.css";
 
 function ContactUs() {
   return (
     <>
-      <Navbar />
+      <Navbarr />
       <div className="container contact-intro">
-        <h1>Hva lurer du på?</h1>
-        <p>Still oss ditt spørsmål og få svar i løpet av 5-6 virkedager</p>
+        <h1>Ta kontakt, da vel!</h1>
+        <p>Du kan også sende oss en melding på instagram.</p>
       </div>
-
       <ContactForm />
+      <Footer />
     </>
   );
 }
