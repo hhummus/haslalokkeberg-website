@@ -1,0 +1,87 @@
+/* applies for all top-headers on prices pages*/
+.pricesHeader {
+    height: 300px;
+    position: relative;
+}
+.pricesHeaderTitle {
+    background-color: #ffffffcb;
+    width: 100vw;
+    position: absolute;
+    top: 249.6px;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.pricesHeaderTitle h1 {
+    margin-bottom: 0;
+    color: #043064;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+/*for prices overwiev page*/
+.pricesHeaderImage {
+    background-image: url("../img/om-oss/pricesHeader.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*product container*/
+.product-container .products {
+    padding: 3rem 2.3rem;
+}
+.product-container .row {
+    align-items: center;
+}
+
+/* read more product button*/
+.cta-products a {
+    margin-top: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+    color: #01316598;
+    background-color: #01316523;
+    cursor: pointer;
+    border-radius: 0.1in;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+}
+.cta-products a:hover {
+    color: #013165f5;
+    background-color: #0131656b;
+    transition: .2s ease-in-out;
+}
+
+.product-info h1,  
+.product-price h1,
+.product-info p, 
+.product-price p {
+    font-size: 16px;
+}
+
+.product-info h1,  
+.product-price h1 {
+    margin-bottom: 0.2rem;
+}
+.product-price p {
+    font-style: italic;
+}
+
+.product-container #two {
+    background-color: #273a3325;
+
+}
+
+.priceFluctuation {
+    padding: 1rem 2.3rem 4rem 2.3rem;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 576px) {
+    .product-price p {
+        text-align: center;
+    }
+}

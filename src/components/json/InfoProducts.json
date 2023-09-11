@@ -1,0 +1,20 @@
+[
+     {
+        "id": "one",
+        "headline": "Produktfotografering",
+        "intro": "Vi tror på at den beste måten å vise frem et produkt på er gjennom ekte fargegjengivelse og rene komposisjoner uten brukt av retusjering.",
+        "cost": "*4.000 - 18.000,-"
+        },
+    {
+        "id": "two",
+        "headline": "Bryllup",
+        "intro": "Med en forkjærlighet for det analoge formatet tilbyr vi en unik måte å fange øyeblikkene på som vil ta dere med tilbake i tid.",
+        "cost": "*18.500 - 28.000,-"
+        },
+     {
+        "id": "three",
+        "headline": "Portretter",
+        "intro": "Enten det er parbilder eller enkeltmennesket som vil fotograferes er vårt mål at resultatet skal stå i tråd med dine ønsker og komfort.",
+        "cost": "*4.000 - 9.000,-"
+        }
+]
