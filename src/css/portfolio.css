@@ -5,8 +5,8 @@
     background-position: center;
 }
 
-.portfolio-container {
-    margin: 4rem 0;
+.portfolio-container .row{
+    margin-top: 4rem;
 }
 
 .portfolio-cta-container {
