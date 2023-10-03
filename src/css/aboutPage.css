@@ -99,9 +99,16 @@
     cursor: pointer;
     border-radius: 0.1in;
     text-decoration: none;
-    color: #273A33;
+    color: #273a33c5;
     font-weight: 600; 
     font-size: 16px;
+}
+
+.linkToSoMe:hover{
+    background-color: #ffffffac;
+    color: #273a33fa;
+    transition: 0.3s ease-in-out;
+    
 }
 
 

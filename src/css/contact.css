@@ -1,30 +1,51 @@
 
+.contactHeaderImage {
+    background-image: url("../img/medium.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .contact-intro {
     margin-top: 3rem;
 }
+.contact-intro h1 {
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #0000003a;
+    padding: 0.5rem 0;
+}
 .contact-form {
     padding: 1rem;
-    background-color: #273a331f;
+}
+.contact-form input,
+.contact-form textarea, 
+.contact-form select {
+    background-color: #f8f9fa;
+    box-shadow: inset 1px 6px 10px 0px #e9e9ee;
+}
+.contact-form select {
+    appearance: none;
 }
 .contact-form input,
 .contact-form textarea,
-.contact-form button {
+.contact-form button, 
+.contact-form select {
     border: none;
-    border-radius: 0.4ch;
     outline: none;
 }
 
 .form-submit-btn{
-    background-color: #283a33;
+    background-color: #013165bb;
     color: #fff;
+    margin: 1rem 0;
+    padding: 1rem 0 ;
 }
-.form-submit-btn[disabled] {
-    background-color: #283a3399;
-}
+
 
 .input-field:focus,
 textarea.input-field:focus {
-    box-shadow: -1px 1px 3px 0px;
+    outline: 1px solid #00000052;
 }
 
 .contact-form .row {
@@ -39,10 +60,7 @@ textarea.input-field:focus {
     padding: 1rem 0.5rem;
 }
 
-.form-submit-btn {
-    margin-top: 1rem;
-    padding: 1rem 0 ;
-}
+
 
 .form-error {
     padding: 0;

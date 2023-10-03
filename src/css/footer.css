@@ -1,9 +1,9 @@
 
 .globalFooter {
-    color: #fff;
-    background-color: #283A33;
+    margin: 4rem 0 2rem 0;
+    color: #000;
     padding: 2rem 0;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     text-align: center;
 }

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "./dist",
+    "target": "ES6",
+    "module":"esnext",
+    "lib": ["es6", "dom"],
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "moduleResolution":"node",
+
+  }
+
+}

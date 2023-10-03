@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #273A33;
+    background-color: #fff;
     padding: 1rem;
     position: sticky;
     z-index: 1;
@@ -13,7 +13,7 @@
 .navbar-logo, .nav-dropdown{
     list-style: none;
     text-decoration: none;
-    color:#fff;
+    color:#000;
     cursor: pointer;
 }
 

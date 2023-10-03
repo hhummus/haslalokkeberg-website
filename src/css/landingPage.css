@@ -1,180 +1,101 @@
-.portefoljeCTA .container {
-padding: 5rem 1.5rem;
-max-height: fit-content;
+
+/* ------ button extra margin applies to contact & prices article --------*/
+.btn-extra-margin {
+    margin-top: 1rem;
 }
 
 
-.portefoljeCTA {
-    color: #fff;
+/* ------------ top content landing page -------------*/
+.landingImage {
+    background-image: url("../img/desktop-portfolio.png"); 
     background-size: cover;
-    background-repeat: none;
-}
-
-.aboutUsContainerImage {
-    background-image: url("../img/desktop-large.jpg");  
-    background-size: cover;
-    background-position: center;
+    background-position: bottom;
     height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.aboutUsBtnContainer {
-    padding: 0 1.5rem;
+.landingPageIntro{
+    margin: 3rem 0;
 }
-.aboutUsBtn {
-    display: block;
-    text-align: center;
-    padding: 0.8rem;
-    background-color: #ffffff59;
-    cursor: pointer;
-    border-radius: 0.1in;
-    text-decoration: none;
-    color: #ffffffb0;
+.landingPageIntroText {
     font-size: 20px;
-    font-weight: 600;
-}
-.aboutUsBtn:hover {
-    box-shadow: -1px 2px 5px 0px #0000002e;
-    background-color: #ffffff72;
-    color: #fff;
-    transition: 0.2s;
-}
-
-
-.portefoljeCTA {
-    background-image: url("../img/desktop-portfolio.png");
-    background-position: center;
-}
-
-.portefoljeCTA .reUseArticleH1 {
-    font-size: 24px;
-    font-weight: 500;
-}
-.portefoljeCTA .reUseArticleP {
-    font-size: 14px;
-}
-
-.reUseArticleH1 {
-    font-weight: 500;
-}
-.reUseArticleH1, 
-.reUseArticleP {
-    text-shadow: 0px 2px 9px #00000082;
-}
-
-.reUseArticleBtnContainer {
-    margin: 0 auto;
-}
-.reUseArticleBtn {
-    margin-top: 4.6rem;
-    display: block;
+    font-weight: 300;
     text-align: center;
-    padding: 0.8rem;
-    background-color: #ffffff59;
-    cursor: pointer;
-    border-radius: 0.1in;
+    line-height: 1.4;
+}
+.textSpan {
+    display: block;
+}
+
+
+/* ----------- earlier work / portfolio article ---------------- */
+.articleContainerText {
+color: #fff;
+padding: 4rem 2rem;
+}
+
+.blue {
+    background-color: #38606ac9;
+    height: 300px;
+}
+.articleTitle {
+    font-size: 20px;
+    font-weight: 300;
+}
+.articleP, .articleBtn {
+    font-size: 16px;
+}
+.articleBtn a{
+    font-style: italic;
     text-decoration: none;
-    color: #ffffffb0;
-    font-size: 18px;
-    font-weight: 600;
+    cursor: pointer;
+    font-weight: 500;
 }
 
-.reUseArticleBtn:hover {
-    box-shadow: -1px 2px 5px 0px #0000002e;
-    background-color: #ffffff72;
+.btn-white a{
     color: #fff;
-    transition: 0.2s;
+}
+.btn-black a{
+    color: #000;
 }
 
+.portfolioImageContainer{
+    overflow: hidden;
+}
+.divForImage {
+    overflow: hidden;
+    height: 300px;
+}
+
+.divForImage img {
+    width: 100vw;
+}
+
+
+/* ----------prices article --------------*/
 .articlePrices {
-    padding: 4.5rem 0 5.5rem 0;
-    color: #000;
+    margin: 3rem 0;
+    color: black;
 }
 .articlePrices .container {
-    padding:  0 1.5rem 0 1.5rem;
+    padding: 0 2rem;
 }
 
-.articlePricesH2, 
-.articleContactH3 {
-    font-size: 20px;
-    font-weight: 400;
-}
-.articlePricesImgContainer {
-    height: 300px;
-    background-size: cover;
-    background-image: url("../img/price-mobile.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 1.4rem 0;
-    border-radius: 0.3ch;
+/* ---------- contact us, check out magazine Kontakt article -----------*/
+.articleContainerText.brown {
+background-color: #8A857A;
 }
 
 
-.articlePricesP {
-    font-size: 16px;
-}
 
-.articlePricesBtn {
-    margin-top: 1.4rem;
-    text-align: center;
-    padding: 1rem;
-    color: #fff;
-    background-color: #273A33;
-    cursor: pointer;
-    border-radius: 0.1in;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.articleContact {
-    padding: 5rem 0;
-    background-color: #273a331f;
-}
-
-.articleContact .container {
-    padding:  0 1.5rem 0 1.5rem;
-}
-
-.articleContactP {
-    font-size: 16px;
-    color: #000;
-}
-
-.articleprices-col-6 {
-    align-content: center;
-    display: grid;
-}
-
-.articleContactBtnContainer .col{
-    margin: 1.4rem 0;
-}
-
-.articleContactKontakt,
-.articleContactUs{
-    font-weight: 400;
-    display: block;
-    text-align: center;
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 0.1in;
-    text-decoration: none;
-    font-size: 14px;
-}
-.articleContactUs {
-    color: #273A33;
-    background-color: #fff;
-}
-.articleContactKontakt {
-    background-color: #273A33;
-    color: #fff;
-}
-
-
-@media only screen and (min-width: 667px) {
-    .spanBlock {
-        display: block;
+@media only screen and (min-width: 575px) {
+    .col-no-padding {
+        padding: 0;
     }
-        
+}
+@media only screen and (min-width: 667px) {
+    .col-no-padding {
+        padding: 0;
+    }
 }

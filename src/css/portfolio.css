@@ -1,0 +1,72 @@
+.portfolioHeaderImage {
+    background-image: url("../img/om-oss/pricesHeader.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.portfolio-container {
+    margin: 4rem 0;
+}
+
+.portfolio-cta-container {
+  margin: 0.5rem 0;
+}
+
+
+.portfolio-cta-container{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ambijus {
+    background-image: url(../img/portfolio/ambijus/ambijus.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.newMovements {
+    background-image: url(../img/portfolio/new-movements/nm.JPG);
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cliffCabin {
+    background-image: url(../img/portfolio/cliff-cabin/cliff-cabin.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.winebarMolla {
+    background-image: url(../img/portfolio/vinbaren/vinbaren.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kok {
+    background-image: url(../img/portfolio/kok/kok.JPG);
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
