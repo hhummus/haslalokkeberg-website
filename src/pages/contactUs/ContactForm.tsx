@@ -96,9 +96,10 @@ function ContactForm() {
             required: "Må fylles ut.",
             })}
             className="input-field">
-            <option value="wedding">Bryllupsfotogragering</option>
-            <option value="productEvent">Produkt/Event</option>
-            <option value="newborn">Nyfødtfotografering</option>
+           
+            <option value="firma">Firma</option>
+            <option value="privatpersoner">Privatpersoner</option>
+            <option value="wedding">Bryllupsfotografering</option>
             <option value="other">Annet</option>
           </select>
         

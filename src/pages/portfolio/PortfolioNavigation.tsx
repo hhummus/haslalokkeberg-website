@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom';
 import {imagesForPortfolio} from "./PortfolioWork";
+import scrollToTop from '../../components/global/scrollToTop';
 
 function PortfolioNavigation() {
 
@@ -8,7 +9,8 @@ function PortfolioNavigation() {
   interface itemObjects {
     title: string,
     id: number,
-    class: string
+    class: string,
+    link: string
   }
 
   return (
@@ -18,22 +20,18 @@ function PortfolioNavigation() {
       {imagesForPortfolio.map((work:itemObjects) => {
         return (
           <div className='col-md-6' key={work.id}>
-         
-            <Link to={work.title} className={`portfolio-cta-container ${work.class}`}>
+            <Link 
+            to={work.link} 
+            className={`portfolio-cta-container ${work.class}`} 
+            onClick={scrollToTop}>
             {work.title}
-          </Link>
-        
-         
+           </Link>
           </div>
-
-
-
-            
         );
       })}
       ;
     </div>
-    </div>
+  </div>
   );
 }
 

@@ -7,14 +7,6 @@ import dailyImgSix from "../../img/om-oss/daily-small-6.jpg";
 import dailyImgSeven from "../../img/om-oss/daily-small-7.jpg";
 import dailyImgEight from "../../img/om-oss/daily-small-8.jpg";
 import dailyImgNine from "../../img/om-oss/daily-small-9.jpg";
-import dailyImgTen from "../../img/om-oss/daily-small-10.jpg";
-import dailyImgEleven from "../../img/om-oss/daily-small-11.jpg";
-import dailyImgTwelve from "../../img/om-oss/daily-small-12.jpg";
-import dailyImgThirteen from "../../img/om-oss/daily-small-13.jpg";
-import dailyImgFourteen from "../../img/om-oss/daily-small-14.jpg";
-import dailyImgFifteen from "../../img/om-oss/daily-small-15.jpg";
-import dailyImgSixteen from "../../img/om-oss/daily-small-16.jpg";
-import dailyImgEighteen from "../../img/om-oss/daily-small-17.jpg";
 
 const socialMediaPhotos = [
   dailyImgOne,
@@ -25,15 +17,7 @@ const socialMediaPhotos = [
   dailyImgSix,
   dailyImgSeven,
   dailyImgEight,
-  dailyImgNine,
-  dailyImgTen,
-  dailyImgEleven,
-  dailyImgTwelve,
-  dailyImgThirteen,
-  dailyImgFourteen,
-  dailyImgFifteen,
-  dailyImgSixteen,
-  dailyImgEighteen,
+  dailyImgNine
 ];
 
 export { socialMediaPhotos };

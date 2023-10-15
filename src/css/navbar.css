@@ -13,7 +13,7 @@
 .navbar-logo, .nav-dropdown{
     list-style: none;
     text-decoration: none;
-    color:#000;
+    color:#262626ea;
     cursor: pointer;
 }
 
@@ -36,7 +36,9 @@
     padding-top: 1rem;
 }
 .nav-dropdown:hover {
-    font-weight: 500;
+    color: #000;
+
+
 }
 .nav-dropdown-divider {
     border: 0.01px solid #e5e7e621;

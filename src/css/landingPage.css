@@ -85,6 +85,7 @@ padding: 4rem 2rem;
 /* ---------- contact us, check out magazine Kontakt article -----------*/
 .articleContainerText.brown {
 background-color: #8A857A;
+height: 300px;
 }
 
 
@@ -93,9 +94,18 @@ background-color: #8A857A;
     .col-no-padding {
         padding: 0;
     }
+   
 }
 @media only screen and (min-width: 667px) {
     .col-no-padding {
         padding: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 990px) {
+    .landingPageContainer {
+        width: 70vw;
+        margin: 0 auto;
     }
 }

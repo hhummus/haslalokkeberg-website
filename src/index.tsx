@@ -10,6 +10,11 @@ import ErrorPage from "./components/global/ErrorPage";
 import ContactUs from "./pages/contactUs/ContactUs";
 import Prices from "./pages/products/Prices";
 import Portfolio from "./pages/portfolio/Portfolio";
+import Kok from "./pages/portfolio/kok/Kok";
+import NewMovements from "./pages/portfolio/new-movements/NewMovements";
+import Ambijus from "./pages/portfolio/ambijus/Ambijus";
+import CliffCabin from "./pages/portfolio/cliff-cabin/CliffCabin";
+import Vinbaren from "./pages/portfolio/winebar-molla/Vinbaren";
 
 
 const router = createBrowserRouter([
@@ -41,16 +46,48 @@ const router = createBrowserRouter([
     path: "tidligere-arbeid",
     element: <Portfolio />,
     errorElement: <ErrorPage />,
-    // bruk når man trykker på prislister
+    // bruk når man trykker på portfolio
+  },
+  {
+    path: "tidligere-arbeid/kok",
+    element: <Kok />,
+    errorElement: <ErrorPage />
+     // bruk når man trykker på portfolio -> KOK 
+  },
+  {
+  path: "tidligere-arbeid/new-movements",
+  element: <NewMovements />,
+  errorElement: <ErrorPage />
+   // bruk når man trykker på portfolio -> New movements  
+  },
+  {
+    path: "tidligere-arbeid/ambijus",
+    element: <Ambijus />,
+    errorElement: <ErrorPage />
+      // bruk når man trykker på portfolio -> Ambijus
+  },
+  {
+    path: "tidligere-arbeid/cliff-cabin",
+    element: <CliffCabin />,
+    errorElement: <ErrorPage />
+      // bruk når man trykker på portfolio -> Cliff Cabin 
+  },
+  {
+    path: "tidligere-arbeid/vinbaren-pa-molla",
+    element: <Vinbaren />,
+    errorElement: <ErrorPage />
+    // bruk når man trykker på portfolio -> Vinbaren
   }
 ]);
+
+
 
 const rootElement = document.getElementById("root")
 // specifying type of rootElement as html element. id root will always exist
 const root = ReactDOM.createRoot(rootElement as HTMLElement);
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

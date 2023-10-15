@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 
 function Navbarr() {
+ 
   const [navbar, setNavbar] = useState(false);
 
   const navbarOnScroll = () => {
@@ -39,6 +40,9 @@ function Navbarr() {
             </Link>
             <Link to="/prislister" className="nav-dropdown">
               Prislister
+            </Link>
+            <Link to="/tidligere-arbeid" className="nav-dropdown">
+              Samarbeid
             </Link>
           </Nav>
         </Navbar.Collapse>

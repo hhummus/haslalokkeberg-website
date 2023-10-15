@@ -1,12 +1,17 @@
 import * as React from "react";
+import "../../css/backOne.css";
 import { useNavigate } from "react-router-dom";
 
-export const GoBack = () => {
+function GoBack () {
   let navigate = useNavigate();
+
+
+
+ 
   return (
-    <button className="goBack" onClick={() => navigate(-1)}>
-      Tilbake
+    <button className= "backOne" onClick={() => navigate(-1)}>
+    &#8592; Tilbake
     </button>
   );
-};
+}
 export default GoBack;

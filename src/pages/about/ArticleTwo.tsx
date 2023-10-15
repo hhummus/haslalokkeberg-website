@@ -2,19 +2,18 @@ import * as React from "react";
 import { socialMediaPhotos } from "./socialImages";
 
 function ArticleTwo() {
-  // new var with first 9 images
-  const firstNinePhotos = socialMediaPhotos.filter((_: any, index: number) => index < 9);
+
 
   // displaying each of the 9 images
-  const socialPhotos = firstNinePhotos.map((image: string) => {
+  const socialPhotos = socialMediaPhotos.map((image: string) => {
     return (
-      <div className="col">
+     <div className="social-image-container col-4 col-md-3 col-lg-3 ">
         <img
           src={image}
           alt="social media photos"
-          className="socialImageWidth"
+          className="socialImageWidth img-fluid"
         ></img>
-      </div>
+    </div>
     );
   });
 
@@ -31,10 +30,10 @@ function ArticleTwo() {
             </p>
           </div>
         </div>
-        <div className="photographsDaily row">{socialPhotos}</div>
+        <div className="photographsDaily row" id="photographsDailyWrap" >{socialPhotos}</div>
 
         <div className="row">
-          <div className="col-12">
+          <div className="col">
             <p className="articleTwoSmallP">
               Vi liker også kjærlighet for alle. Bærekraft. Norske råvarer.
               Oransje-vin. Bøker. Stine liker krim, Helena digger sci-fi.

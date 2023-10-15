@@ -3,8 +3,9 @@ import "../css/aboutPage.css";
 import Footer from "../components/global/Footer";
 import Navbarr from "../components/global/Navbar";
 import AboutUs from "./about/AboutUs";
-import ArticleFour from "./about/ArticleFour";
+import SocialMediaLinks from "./about/SocialMediaAbout";
 import ArticleTwo from "./about/ArticleTwo";
+import GoBack from "../components/global/GoBack";
 
 function AboutPage() {
   return (
@@ -13,9 +14,10 @@ function AboutPage() {
       <div className="aboutPage">
         <AboutUs />
         <ArticleTwo />
-        <ArticleFour />
-        <Footer />
+        <SocialMediaLinks />
       </div>
+      <GoBack />
+      <Footer />
     </div>
   );
 }

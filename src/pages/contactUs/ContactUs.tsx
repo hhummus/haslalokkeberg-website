@@ -4,6 +4,7 @@ import ContactForm from "./ContactForm";
 import Footer from "../../components/global/Footer";
 import HeaderComponent from "../products/HeaderComp";
 import "../../css/contact.css";
+import GoBack from "../../components/global/GoBack";
 
 function ContactUs() {
   return (
@@ -17,6 +18,7 @@ function ContactUs() {
         <h1>Fyll ut skjemaet for å komme i kontakt med oss.</h1>
       </div>
       <ContactForm />
+      <GoBack />
       <Footer />
     </>
   );

@@ -36,15 +36,17 @@
 }
 
 /* read more product button*/
-
-.cta-products a {
-    margin-top: 1.4rem;
-    color: #01316583;
-    cursor: pointer;
+.bold {
+    font-weight: 400;
+}
+.cta-products a,
+.cta-products {
+    color: #013165a2;
     text-decoration: none;
-    font-weight: 600;
     font-size: 16px;
-    display: block;
+}
+.cta-products a {
+    cursor: pointer;
 }
 .cta-products a:hover {
     color: #013165f5;

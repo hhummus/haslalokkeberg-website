@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import aboutUsImage from "../../img/om-oss-mobile.jpg";
+import scrollToTop from "../../components/global/scrollToTop";
 
 function AboutUs() {
   return (
@@ -21,7 +22,8 @@ function AboutUs() {
           <div className="row">
             <img
               src={aboutUsImage}
-              alt="tine hasla and helena løkkeberg in nature"
+              alt="stine hasla and helena løkkeberg in nature"
+              className="img-fluid"
             />
           </div>
         </div>
@@ -31,7 +33,7 @@ function AboutUs() {
         </small>
         <div className="row">
           <p className="getInTouch">
-            <Link to="/kontakt-oss">
+            <Link to="/kontakt-oss" onClick={scrollToTop}>
               Har du spørsmål? Kunne du tenkt deg en uforpliktende prat? Klikk
               her for å sende oss en e-post.
             </Link>

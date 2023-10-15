@@ -1,4 +1,4 @@
-
+/*info about us section*/
 .aboutPage {
     margin-top: 5rem ;
     color: #273A33;
@@ -30,6 +30,8 @@
     margin: 0 auto;
     display: block;
 }
+
+/* get in touch section*/
 .getInTouch {
     margin-top: 1.5rem;
 }
@@ -41,72 +43,76 @@
     font-size: 16px;
 }
 
+
+/* images of daily life section*/
 .articleTwo {
     margin-top: 2rem;
     padding: 4rem 0;
     background-color: #273a331f;
 }
 
-.sectionTwoImages {
-    padding: 1rem 0;
-}
-
-.photographsDaily img {
-   margin:0 0.3rem 0.3rem 0; 
-}
-
-
-.articleTwo .text {
-    margin-bottom: 1.5rem;
-}
 .articleTwoTitle {
     font-size: 20px;
 }
-.articleTwoP {
-    font-weight: 400;
-    font-size: 16px;
-}
+
 .articleTwoSmallP {
     font-size: 16px;
     margin-top: 1.5rem;
 }
 .articleTwoP{
     margin-bottom: 1.5rem;
-}
-
-.articleFourP {
+    font-weight: 400;
     font-size: 16px;
 }
 
-.articleFour {
+#photographsDailyWrap {
+   flex-wrap: wrap;
+   padding: 0 0.5rem;
+}
+.socialImageWidth {
+    width: 100%;
+    aspect-ratio: 1 / 1;  
+    object-fit: cover;
+    padding: 0.3rem;
+}
+
+.social-image-container {
+    padding: 0;
+}
+
+/* social media links section*/
+.socialMediaP {
+    font-size: 16px;
+}
+
+.socialMediaArticle {
     padding: 0 1.5rem 0 1.5rem;
-    background-color: #273a331f;
     text-align: center;
 }
 
-.articleFour .container {
-    padding: 3rem 0 6rem;
+.socialMediaArticle .container {
+    padding: 3rem 6rem;
 }
 
-.articleFourTitle {
-    font-size: 16px;
+.socialMediaTitle {
+    font-size: 20px;
+}
+.socialMediaContainer {
+    margin-top: 1rem;
+}
+.socialMediaContainer .col-12 {
+    padding: 0.5rem;
 }
 .linkToSoMe {
-    margin-top: 1.4rem;
-    text-align: center;
-    padding: 0.8rem;
-    background-color: #ffffff59;
     cursor: pointer;
-    border-radius: 0.1in;
     text-decoration: none;
-    color: #273a33c5;
-    font-weight: 600; 
+    color: #1f1f1fc5;
     font-size: 16px;
+    font-style: italic;
 }
 
 .linkToSoMe:hover{
-    background-color: #ffffffac;
-    color: #273a33fa;
+    color: #1e1e1efa;
     transition: 0.3s ease-in-out;
     
 }
@@ -115,12 +121,20 @@
 @media only screen and (min-width: 667px) {
     .aboutPageImgContainer,
     .aboutPageImageText {
-        width: 35%;
+        width: 45vw;
     }
     .aboutPageImgContainer img {
         padding: 0;
     }
-   
+
+    .aboutUs {
+        width: 65vw;
+        margin: 0 auto;
+    }
      
-        
+}
+@media only screen and (min-width: 992px) {
+    .articleTwo .container {
+        width: 65vw;
+    }
 }

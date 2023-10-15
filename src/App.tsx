@@ -12,10 +12,12 @@ export default function App() {
   return (
     <div>
       <Navbarr />
-      <ArticleAbout />
-      <ArticlePortfolio />
-      <ArticlePrices />
-      <ArticleContact />
+        <ArticleAbout />
+        <div className="landingPageContainer">
+        <ArticlePortfolio />
+        <ArticlePrices />
+        <ArticleContact />
+      </div>
       <Footer />
     </div>
   );

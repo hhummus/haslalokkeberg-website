@@ -1,0 +1,46 @@
+#portfolioPhotosWrap {
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.portfolioPhotos {
+    margin-top: 4rem;
+}
+.portfolioImageWidth {
+  width: 100%;
+  aspect-ratio: 1 / 1;  
+  object-fit: cover;
+}
+.portfolioIndividualContainer {
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+.aboutIntroText h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+.aboutIntroText p {
+    font-size: 16px;
+}
+.visitCta {
+    font-style: italic;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #000000c1;
+}
+.visitCta:hover{
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.portfolio-image-container {
+    padding: 0.3rem 0.3rem;
+}
+
+@media only screen and (min-width: 1080px) {
+
+.portfolioIndividualContainer {
+    width: 65vw;
+
+}
+}

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
+import scrollToTop from "../../components/global/scrollToTop";
 
 function ArticlePrices() {
   return (
@@ -10,7 +11,11 @@ function ArticlePrices() {
           <span className="textSpan">fotografering av oss?</span>
         </h2>
         <div className="articleBtn btn-black btn-extra-margin">
-          <Link to="/prislister">Til prislister</Link>
+          <Link 
+          to="/prislister"
+          onClick={scrollToTop}>
+            Til prislister
+          </Link>
         </div>
       </div>
     </div>
