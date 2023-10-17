@@ -1,12 +1,11 @@
-import dailyImgOne from "../../img/om-oss/daily-small.jpg";
-import dailyImgTwo from "../../img/om-oss/daily-small-2.jpg";
-import dailyImgThree from "../../img/om-oss/daily-small-3.jpg";
-import dailyImgFour from "../../img/om-oss/daily-small-4.jpg";
-import dailyImgFive from "../../img/om-oss/daily-small-5.jpg";
-import dailyImgSix from "../../img/om-oss/daily-small-6.jpg";
-import dailyImgSeven from "../../img/om-oss/daily-small-7.jpg";
-import dailyImgEight from "../../img/om-oss/daily-small-8.jpg";
-import dailyImgNine from "../../img/om-oss/daily-small-9.jpg";
+import dailyImgOne from "../../img/om-oss/social-1.JPG";
+import dailyImgTwo from "../../img/om-oss/social-2.JPG";
+import dailyImgThree from "../../img/om-oss/social-3.JPG";
+import dailyImgFour from "../../img/om-oss/social-4.jpg";
+import dailyImgFive from "../../img/om-oss/social-5.jpg";
+import dailyImgSix from "../../img/om-oss/social-6.JPG";
+import dailyImgSeven from "../../img/om-oss/social-7.JPG";
+import dailyImgEight from "../../img/om-oss/social-8.JPG";
 
 const socialMediaPhotos = [
   dailyImgOne,
@@ -17,7 +16,6 @@ const socialMediaPhotos = [
   dailyImgSix,
   dailyImgSeven,
   dailyImgEight,
-  dailyImgNine
 ];
 
 export { socialMediaPhotos };

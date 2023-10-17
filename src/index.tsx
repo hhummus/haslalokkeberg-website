@@ -15,6 +15,7 @@ import NewMovements from "./pages/portfolio/new-movements/NewMovements";
 import Ambijus from "./pages/portfolio/ambijus/Ambijus";
 import CliffCabin from "./pages/portfolio/cliff-cabin/CliffCabin";
 import Vinbaren from "./pages/portfolio/winebar-molla/Vinbaren";
+import Torungen from "./pages/portfolio/torungen/Torungen";
 
 
 const router = createBrowserRouter([
@@ -77,6 +78,12 @@ const router = createBrowserRouter([
     element: <Vinbaren />,
     errorElement: <ErrorPage />
     // bruk når man trykker på portfolio -> Vinbaren
+  },
+  {
+    path: "tidligere-arbeid/torungen-design",
+    element: < Torungen />,
+    errorElement: <ErrorPage />
+    // bruk når man trykker på portfolio -> Torungen
   }
 ]);
 

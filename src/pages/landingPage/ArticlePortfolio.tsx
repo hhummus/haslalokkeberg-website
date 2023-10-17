@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import portfolioImage from "../../img/om-oss/1013994B-D904-4453-B4E7-7FB47255C779.JPG";
+import portfolioImage from "../../img/portfolio-intro-image.JPG";
 import scrollToTop from "../../components/global/scrollToTop";
 
 function ArticlePortfolio() {

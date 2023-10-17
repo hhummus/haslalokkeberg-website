@@ -1,19 +1,15 @@
 .portfolioHeaderImage {
-    background-image: url("../img/medium.png");
+    background-image: url("../img/banner/tidligere-arbeid-intro-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .portfolio-container .row{
     margin-top: 4rem;
 }
-
 .portfolio-cta-container {
   margin: 0.5rem 0;
 }
-
-
 .portfolio-cta-container{
     text-decoration: none;
     color: #fff;
@@ -63,6 +59,15 @@
 }
 .kok {
     background-image: url(../img/portfolio/kok/kok.JPG);
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.torungenDesign {
+    background-image: url(../img/portfolio/torungen/torungen-2.JPG);
     background-size: cover;
     background-position: bottom;
     height: 100px;

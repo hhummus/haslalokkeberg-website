@@ -35,10 +35,9 @@ export const imagesForPortfolio =
     },
     {
         "id": 6,
-        "title": "Sovesveis",
-        "class": "soveSveis",
-        "link": "sovesveis"
-
+        "title": "Torungen design",
+        "class": "torungenDesign",
+        "link": "torungen-design"
     }
    
 ]

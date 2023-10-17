@@ -90,24 +90,16 @@ function ContactForm() {
           <label htmlFor="subject" className="label-field">
             Emne 
           </label>
-
           <select id="subject" name="subject" 
           {...register("subject", {
-            required: "Må fylles ut.",
+            required: "Vennligst velg et emne.",
             })}
             className="input-field">
-           
             <option value="firma">Firma</option>
             <option value="privatpersoner">Privatpersoner</option>
             <option value="wedding">Bryllupsfotografering</option>
             <option value="other">Annet</option>
           </select>
-        
-            
-           
-            
-            
-         
           <small className="form-error">{errors.subject?.message}</small>
         </div>
 

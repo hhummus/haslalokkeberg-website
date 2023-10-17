@@ -16,18 +16,18 @@ function SocialMediaLinks() {
             rel="noreferrer"
             className="linkToSoMe"
           >
-            @haslalokkeberg
+          @haslalokkeberg
           </a>
           </div>
         
        <div className="col-12">
        <a
-            href="https://www.instagram.com/stinehasla/"
-            rel="noreferrer"
-            target="_blank"
-            className="linkToSoMe"
-          >
-            @stinehasla
+          href="https://www.instagram.com/stinehasla/"
+          rel="noreferrer"
+          target="_blank"
+          className="linkToSoMe"
+        >
+          @stinehasla
           </a>
        </div>
   

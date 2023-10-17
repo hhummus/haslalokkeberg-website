@@ -7,13 +7,14 @@
 
 /* ------------ top content landing page -------------*/
 .landingImage {
-    background-image: url("../img/desktop-portfolio.png"); 
+    background-image: url("../img//banner/landing-intro-image.JPG"); 
     background-size: cover;
     background-position: bottom;
     height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-position-y: center;
 }
 .landingPageIntro{
     margin: 3rem 0;

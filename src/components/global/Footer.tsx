@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col globalFooterCopyright">
-            <small>@2022 haslalokkeberg</small>
+            <small>@2023 haslalokkeberg</small>
           </div>
         </div>
         <div className="col">
