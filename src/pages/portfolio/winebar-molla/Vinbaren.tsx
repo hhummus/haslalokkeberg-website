@@ -30,7 +30,7 @@ function NewMovements() {
       <div className="container portfolioIndividualContainer">
       <AboutIntroText 
       introTitle="Vinbaren på mølla" 
-      introText="tekst kommer"
+      introText=""
      introLinkText="Vinbaren på mølla" introLink="https://newmovements.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{winebarMollaPhotos}</div>
       </div>
