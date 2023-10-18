@@ -1,25 +1,32 @@
 import * as React from 'react'
+import { useEffect } from 'react';
 import ambijusImagesArray from './Images';
 import Navbarr from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
+import scrollToTop from '../../../components/global/scrollToTop';
 
 
 function Ambijus() {
 
-    const ambijusPhotos = ambijusImagesArray.map((image: string) => {
-        return (
-         <div className="portfolio-image-container col-sm-12 col-md-4 col-lg-3">
-            <img
-              src={image}
-              alt="kok photos"
-              className="portfolioImageWidth img-fluid"
-            ></img>
-    </div>
-        );
-      });
+ useEffect(() => {
+  scrollToTop()
+ }, []);
+
+  const ambijusPhotos = ambijusImagesArray.map((image: string) => {
+    return (
+      <div className="portfolio-image-container col-sm-12 col-md-4 col-lg-3">
+        <img
+          src={image}
+          alt="kok photos"
+          className="portfolioImageWidth img-fluid"
+        ></img>
+      </div>
+    );
+  });
+
   return (
     <div>
         <Navbarr />

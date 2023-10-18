@@ -1,9 +1,14 @@
 import * as React from 'react'
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {imagesForPortfolio} from "./PortfolioWork";
 import scrollToTop from '../../components/global/scrollToTop';
 
 function PortfolioNavigation() {
+
+useEffect(() => {
+  scrollToTop()
+}, []);
 
 // setting types to be expected 
   interface itemObjects {
@@ -11,7 +16,7 @@ function PortfolioNavigation() {
     id: number,
     class: string,
     link: string
-  }
+  };
 
   return (
     <div className="portfolio-container container">

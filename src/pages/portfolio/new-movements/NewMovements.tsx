@@ -1,13 +1,19 @@
 import * as React from 'react'
+import { useEffect } from 'react';
 import nmImagesArray from './Images';
 import Navbarr from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
+import scrollToTop from '../../../components/global/scrollToTop';
 
 
 function NewMovements() {
+  
+  useEffect(() => {
+    scrollToTop()
+   }, []);
 
     const nmPhotos = nmImagesArray.map((image: string) => {
         return (
@@ -17,9 +23,10 @@ function NewMovements() {
               alt="new movements photos"
               className="portfolioImageWidth img-fluid"
             ></img>
-    </div>
+          </div>
         );
-      });
+    });
+
   return (
     <div>
         <Navbarr />

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import portfolioImage from "../../img/portfolio-intro-image.JPG";
-import scrollToTop from "../../components/global/scrollToTop";
+
 
 function ArticlePortfolio() {
   return (
@@ -11,7 +11,7 @@ function ArticlePortfolio() {
           <div className="col-sm-7 col-no-padding">
             <Link className="articleBtn btn-white"
               to="/tidligere-arbeid"
-              onClick={() => scrollToTop()}>
+             >
                 <div className="articleContainerText blue">
                   <h3 className="articleTitle">Tidligere arbeid</h3>
                   <p className="articleP">

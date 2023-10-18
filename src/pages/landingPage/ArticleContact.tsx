@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import scrollToTop from "../../components/global/scrollToTop";
 
 function ArticleContact() {
   return (
@@ -18,12 +17,12 @@ function ArticleContact() {
               <Link className="articleBtn btn-white-contact"
                 to="https://oslovelobodega.com/products/tidsskriftet-kontakt-issue-03?_pos=1&_sid=b6a470adc&_ss=r"
                 target="_blank"
-                onClick={() => scrollToTop()}>
+                >
                 Sjekk ut tidsskriftet Kontakt
               </Link>
        
               <Link to="/kontakt-oss" className="articleBtn btn-white-contact"
-                onClick={() => scrollToTop()}>
+                >
                 Kontakt oss
               </Link>
             </div>

@@ -1,13 +1,20 @@
 import * as React from 'react'
+import { useEffect } from 'react';
 import cliffCabinImagesArray from './Images';
 import Navbarr from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
+import scrollToTop from '../../../components/global/scrollToTop';
 
 
 function Ambijus() {
+  
+  useEffect(() => {
+    scrollToTop()
+   }, []);
+
 
     const cliffCabinPhotos = cliffCabinImagesArray.map((image: string) => {
         return (

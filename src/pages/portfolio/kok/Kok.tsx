@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 import "../../../css/portfolioPages.css"
 import kokImagesArray from './Images';
 import Navbarr from '../../../components/global/Navbar';
@@ -6,9 +7,14 @@ import HeaderComponent from '../../products/HeaderComp';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import AboutIntroText from '../AboutIntroText';
+import scrollToTop from '../../../components/global/scrollToTop';
 
 
 function Kok() {
+
+  useEffect(() => {
+    scrollToTop()
+   }, []);
 
   const kokPhotos = kokImagesArray.map((image: string) => {
     return (
@@ -18,7 +24,7 @@ function Kok() {
           alt="kok photos"
           className="portfolioImageWidth img-fluid"
         ></img>
-</div>
+      </div>
     );
   });
 

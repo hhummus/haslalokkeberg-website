@@ -1,13 +1,19 @@
 import * as React from 'react'
+import { useEffect } from 'react';
 import torungenImagesArray from './Images';
 import Navbarr from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
+import scrollToTop from '../../../components/global/scrollToTop';
 
 
 function NewMovements() {
+
+  useEffect(() => {
+    scrollToTop()
+   }, []);
 
     const torungenPhotos = torungenImagesArray.map((image: string) => {
         return (
@@ -17,9 +23,10 @@ function NewMovements() {
               alt="torungen strikka gensere"
               className="portfolioImageWidth img-fluid"
             ></img>
-    </div>
+          </div>
         );
-      });
+    });
+
   return (
     <div>
         <Navbarr />
