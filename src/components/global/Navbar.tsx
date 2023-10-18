@@ -32,17 +32,17 @@ function Navbarr() {
         <Navbar.Collapse role="" id="responsive-navbar-nav">
           <div className="nav-dropdown-divider"></div>
           <Nav className="mr-auto">
+          <Link to="/tidligere-arbeid" className="nav-dropdown">
+              Samarbeid
+            </Link>
+            <Link to="/prislister" className="nav-dropdown">
+              Prislister
+            </Link>
             <Link to="/om-oss" className="nav-dropdown">
               Bli kjent med oss
             </Link>
             <Link to="/kontakt-oss" className="nav-dropdown">
               Kontakt oss
-            </Link>
-            <Link to="/prislister" className="nav-dropdown">
-              Prislister
-            </Link>
-            <Link to="/tidligere-arbeid" className="nav-dropdown">
-              Samarbeid
             </Link>
           </Nav>
         </Navbar.Collapse>

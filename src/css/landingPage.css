@@ -47,22 +47,21 @@ padding: 4rem 2rem;
 .articleP, .articleBtn {
     font-size: 16px;
 }
-.articleBtn a{
-    font-style: italic;
+.articleBtn{
     text-decoration: none;
     cursor: pointer;
+}
+.btn-italic{
+    font-style: italic;
     font-weight: 500;
 }
-
-.btn-white a{
-    color: #fff;
-}
-.btn-black a{
+.btn-black{
     color: #000;
 }
 
 .portfolioImageContainer{
     overflow: hidden;
+    height: 300px;
 }
 .divForImage {
     overflow: hidden;
@@ -89,6 +88,13 @@ background-color: #8A857A;
 height: 300px;
 }
 
+.btn-white-contact {
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    padding: 0.3rem 0;
+}
 
 
 @media only screen and (min-width: 575px) {

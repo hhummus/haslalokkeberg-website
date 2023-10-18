@@ -23,7 +23,7 @@ function PortfolioNavigation() {
             <Link 
             to={work.link} 
             className={`portfolio-cta-container ${work.class}`} 
-            onClick={scrollToTop}>
+            onClick={() => scrollToTop()}>
             {work.title}
            </Link>
           </div>

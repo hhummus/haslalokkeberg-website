@@ -5,19 +5,21 @@ import scrollToTop from "../../components/global/scrollToTop";
 function ArticlePrices() {
   return (
     <div className="articlePrices">
+       <Link className="articleBtn btn-black"
+          to="/prislister"
+          onClick={() => scrollToTop()}>
       <div className="container">
         <h2 className="articleTitle">
           Hva koster det å bestille{" "}
           <span className="textSpan">fotografering av oss?</span>
         </h2>
-        <div className="articleBtn btn-black btn-extra-margin">
-          <Link 
-          to="/prislister"
-          onClick={scrollToTop}>
+        <p className="btn-italic">
+         
             Til prislister
-          </Link>
-        </div>
+         
+        </p>
       </div>
+      </Link>
     </div>
   );
 }

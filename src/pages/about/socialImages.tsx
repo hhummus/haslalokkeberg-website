@@ -6,6 +6,9 @@ import dailyImgFive from "../../img/om-oss/social-5.jpg";
 import dailyImgSix from "../../img/om-oss/social-6.JPG";
 import dailyImgSeven from "../../img/om-oss/social-7.JPG";
 import dailyImgEight from "../../img/om-oss/social-8.JPG";
+import dailyImgNine from "../../img/om-oss/social-9.JPG";
+import dailyImgTen from "../../img/om-oss/social-10.JPG";
+
 
 const socialMediaPhotos = [
   dailyImgOne,
@@ -16,6 +19,8 @@ const socialMediaPhotos = [
   dailyImgSix,
   dailyImgSeven,
   dailyImgEight,
+  dailyImgNine,
+  dailyImgTen
 ];
 
 export { socialMediaPhotos };
