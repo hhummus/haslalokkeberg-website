@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import portfolioImage from "../../img/portfolio-intro-image.JPG";
+import portfolioImage from "../../img/portfolio-intro-image-4.JPG";
 
 
 function ArticlePortfolio() {
