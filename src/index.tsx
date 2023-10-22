@@ -16,6 +16,7 @@ import Ambijus from "./pages/portfolio/ambijus/Ambijus";
 import CliffCabin from "./pages/portfolio/cliff-cabin/CliffCabin";
 import Vinbaren from "./pages/portfolio/winebar-molla/Vinbaren";
 import Torungen from "./pages/portfolio/torungen/Torungen";
+import Wedding from "./pages/products/wedding/Wedding";
 
 
 const router = createBrowserRouter([
@@ -84,6 +85,12 @@ const router = createBrowserRouter([
     element: < Torungen />,
     errorElement: <ErrorPage />
     // bruk når man trykker på portfolio -> Torungen
+  },
+  {
+    path: "prislister/bryllup",
+    element: < Wedding />,
+    errorElement: <ErrorPage />
+     // bruk når man trykker på prislister -> Bryllup
   }
 ]);
 

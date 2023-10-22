@@ -16,7 +16,7 @@
 
 /*for prices overwiev page*/
 .pricesHeaderImage {
-    background-image: url("../img/banner/priser-intro-image.JPG");
+    background-image: url("../img/banner/priser-intro-image-optimized.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,9 +73,46 @@
 
 }
 
+/* individual prices information page*/
+.prices-image-info-container {
+    padding: 0.3rem 0.3rem;
+}
+#prices-information-images-wrap {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
 
+.prices-information-page {
+    padding: 0 1rem;
+}
+.prices-info-text {
+    margin-top: 4rem;
+}
+.prices-info-text-title {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.prices-info-text p {
+    font-size: 16px;
+}
+/* ---------------- wedding -------------*/
+.weddingHeaderImage {
+    background-image: url("../img/priser/bryllup/sjømann/IMG_3428.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 @media only screen and (min-width: 576px) {
     .product-price p {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .prices-information-page {
+        width: 70vw;
     }
 }

@@ -9,10 +9,11 @@ import GoBack from '../../components/global/GoBack';
 import scrollToTop from '../../components/global/scrollToTop';
 
 function Portfolio() {
+  
   useEffect(() => {
     scrollToTop()
   }, [])
-  
+
   return (
     <div>
         <Navbarr />
