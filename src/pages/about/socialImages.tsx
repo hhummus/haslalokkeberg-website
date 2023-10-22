@@ -1,13 +1,12 @@
-import dailyImgOne from "../../img/om-oss/social-1.JPG";
-import dailyImgTwo from "../../img/om-oss/social-2.JPG";
-import dailyImgThree from "../../img/om-oss/social-3.JPG";
-import dailyImgFour from "../../img/om-oss/social-4.jpg";
-import dailyImgFive from "../../img/om-oss/social-5.jpg";
-import dailyImgSix from "../../img/om-oss/social-6.JPG";
-import dailyImgSeven from "../../img/om-oss/social-7.JPG";
-import dailyImgEight from "../../img/om-oss/social-8.JPG";
-import dailyImgNine from "../../img/om-oss/social-9.JPG";
-import dailyImgTen from "../../img/om-oss/social-10.JPG";
+import dailyImgOne from "../../img/om-oss/social-1-optimized.jpg";
+import dailyImgTwo from "../../img/om-oss/social-2-optimized.jpg";
+import dailyImgThree from "../../img/om-oss/social-3-optimized.jpg";
+import dailyImgFour from "../../img/om-oss/social-4-optimized.jpg";
+import dailyImgFive from "../../img/om-oss/social-5-optimized.jpg";
+import dailyImgSix from "../../img/om-oss/social-6-optimized.jpg";
+import dailyImgSeven from "../../img/om-oss/social-7-optimized.jpg";
+import dailyImgEight from "../../img/om-oss/social-8-optimized.jpg";
+import dailyImgNine from "../../img/om-oss/social-9-optimized.jpg";
 
 
 const socialMediaPhotos = [
@@ -20,7 +19,6 @@ const socialMediaPhotos = [
   dailyImgSeven,
   dailyImgEight,
   dailyImgNine,
-  dailyImgTen
 ];
 
 export { socialMediaPhotos };
