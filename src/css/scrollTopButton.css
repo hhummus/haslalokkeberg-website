@@ -1,0 +1,18 @@
+.scrollTopButtonContainer {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    text-align: end;
+}
+.scrollTopButtonContainer.active {
+    position: sticky;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.scrollTopButton {
+    border: none;
+    opacity: 70%;
+    background-color: #fff;
+    padding: 0.5rem 2rem;
+}
+

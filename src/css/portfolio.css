@@ -19,7 +19,7 @@
 }
 
 .ambijus {
-    background-image: url(../img/portfolio/ambijus/ambijus.JPG);
+    background-image: url(../img/portfolio/ambijus/ambijus-optimized.jpg);
     background-size: cover;
     background-position: center;
     height: 100px;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 .newMovements {
-    background-image: url(../img/portfolio/new-movements/nm.JPG);
+    background-image: url(../img/portfolio/new-movements/nm-optimized.jpg);
     background-size: cover;
     background-position: bottom;
     height: 100px;
@@ -39,7 +39,7 @@
 }
 
 .cliffCabin {
-    background-image: url(../img/portfolio/cliff-cabin/cliff-cabin.jpg);
+    background-image: url(../img/portfolio/cliff-cabin/cliff-cabin-optimized.jpg);
     background-size: cover;
     background-position: center;
     height: 100px;
@@ -49,7 +49,7 @@
 }
 
 .winebarMolla {
-    background-image: url(../img/portfolio/vinbaren/vinbaren.JPG);
+    background-image: url(../img/portfolio/vinbaren/vinbaren-optimized.jpg);
     background-size: cover;
     background-position: center;
     height: 100px;
@@ -58,7 +58,7 @@
     align-items: center;
 }
 .kok {
-    background-image: url(../img/portfolio/kok/kok.JPG);
+    background-image: url(../img/portfolio/kok/kok-optimized.jpg);
     background-size: cover;
     background-position: bottom;
     height: 100px;
@@ -67,7 +67,7 @@
     align-items: center;
 }
 .torungenDesign {
-    background-image: url(../img/portfolio/torungen/torungen-2.JPG);
+    background-image: url(../img/portfolio/torungen/torungen-2-optimized.jpg);
     background-size: cover;
     background-position: bottom;
     height: 100px;

@@ -4,20 +4,24 @@
         "headline": "For firma",
         "intro": "Ønsker du fotografier av dine produkter, personalteam, linkedIn-portretter, firmafest eller kanskje noe helt annet? Ta kontakt for en uforpliktende prat",
         "cost": "5.000,-",
-        "link": "firma"
+        "link": "/kontakt-oss",
+        "more": "Kontakt oss"
         },
         {
          "id": 2,
          "headline": "For privatpersoner",
          "intro": "Ta gjerne kontakt med oss om du ønsker analoge bilder fra en stor eller liten begivenhet, parbilder, gravidfoto, bilder av den bittelille, de litt større eller hva med hele familien? Dåp/navnfest, konfirmasjon, bryllup eller midtlivskrisen? We got you. ",
          "cost": "6.000,-",
-         "link": "privatpersoner"
+         "link": "/kontakt-oss",
+         "more": "Kontakt oss"
+
          },
          {
         "id": 3,
         "headline": "Bryllup",
         "intro": "Med en forkjærlighet for det analoge formatet tilbyr vi en unik måte å fange øyeblikkene på som vil ta dere med tilbake i tid.",
         "cost": "16.500,-",
-        "link": "bryllup"
+        "link": "bryllup",
+        "more": "Se mer"
         }
 ]

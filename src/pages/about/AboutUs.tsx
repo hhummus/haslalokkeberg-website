@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import aboutUsImage from "../../img/om-oss-intro-image.JPG";
+import aboutUsImage from "../../img/om-oss-intro-image-optimized.jpg";
 import scrollToTop from "../../components/global/scrollToTop";
 
 function AboutUs() {

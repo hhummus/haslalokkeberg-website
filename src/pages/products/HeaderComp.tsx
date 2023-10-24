@@ -9,5 +9,4 @@ function HeaderComponent(props: { pricesImage: string; titlePricesHeader: string
     </div>
   );
 }
-
 export default HeaderComponent;

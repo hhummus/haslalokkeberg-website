@@ -27,5 +27,4 @@ function Prices() {
     </div>
   );
 }
-
 export default Prices;

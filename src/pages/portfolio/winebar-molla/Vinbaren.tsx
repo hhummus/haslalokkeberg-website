@@ -7,6 +7,7 @@ import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
+import GoTop from '../../../components/global/GoTop';
 
 
 function NewMovements() {
@@ -40,6 +41,7 @@ function NewMovements() {
       introText="Vinbaren på Mølla er stedet der du forveksler Kristiansand med København og kan nyte en lille på varme, late sommerdager. Et bredt utvalg naturvin på glass og flaske, deilig og enkel sommermat og en vibe resten av sommerNorge bare kan drømme om.  "
      introLinkText="Vinbaren på mølla" introLink="https://newmovements.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{winebarMollaPhotos}</div>
+      <GoTop />
       </div>
       <GoBack />
       <Footer />

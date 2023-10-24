@@ -1,15 +1,15 @@
-import nmImgOne from "../../../img/portfolio/new-movements/nm.JPG";
-import nmImgTwo from "../../../img/portfolio/new-movements/nm-2.JPEG";
-import nmImgThree from "../../../img/portfolio/new-movements/nm-3.JPG";
-import nmImgFour from "../../../img/portfolio/new-movements/nm-4.JPG";
-import nmImgFive from "../../../img/portfolio/new-movements/nm-5.JPG";
-import nmImgSix from "../../../img/portfolio/new-movements/nm-6.JPG";
-import nmImgSeven from "../../../img/portfolio/new-movements/nm-7.JPEG";
-import nmImgEight from "../../../img/portfolio/new-movements/nm-8.JPG";
-import nmImgNine from "../../../img/portfolio/new-movements/nm-9.jpg";
-import nmImgTen from "../../../img/portfolio/new-movements/nm-10.JPG";
-import nmImgEleven from "../../../img/portfolio/new-movements/nm-11.jpg";
-import nmImgTwelve from "../../../img/portfolio/new-movements/nm-12.JPEG";
+import nmImgOne from "../../../img/portfolio/new-movements/nm-optimized.jpg";
+import nmImgTwo from "../../../img/portfolio/new-movements/nm-2-optimized.jpg";
+import nmImgThree from "../../../img/portfolio/new-movements/nm-3-optimized.jpg";
+import nmImgFour from "../../../img/portfolio/new-movements/nm-4-optimized.jpg";
+import nmImgFive from "../../../img/portfolio/new-movements/nm-5-optimized.jpg";
+import nmImgSix from "../../../img/portfolio/new-movements/nm-6-optimized.jpg";
+import nmImgSeven from "../../../img/portfolio/new-movements/nm-7-optimized.jpg";
+import nmImgEight from "../../../img/portfolio/new-movements/nm-8-optimized.jpg";
+import nmImgNine from "../../../img/portfolio/new-movements/nm-9-optimized.jpg";
+import nmImgTen from "../../../img/portfolio/new-movements/nm-10-optimized.jpg";
+import nmImgEleven from "../../../img/portfolio/new-movements/nm-11-optimized.jpg";
+import nmImgTwelve from "../../../img/portfolio/new-movements/nm-12-optimized.jpg";
 
 const nmImagesArray = [
     nmImgOne,

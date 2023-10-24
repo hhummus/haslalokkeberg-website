@@ -7,6 +7,7 @@ import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
+import GoTop from '../../../components/global/GoTop';
 
 
 function NewMovements() {
@@ -41,6 +42,7 @@ function NewMovements() {
       Skoene er unisexmodeller og har lisser av resirkulerte plastflasker, en gummisåle som er kombinasjon av resirkulert og ny gummi, samt skinn fra et miljøsertifisert italiensk garveri."
      introLinkText="New Movements" introLink="https://newmovements.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{nmPhotos}</div>
+      <GoTop />
       </div>
       <GoBack />
       <Footer />

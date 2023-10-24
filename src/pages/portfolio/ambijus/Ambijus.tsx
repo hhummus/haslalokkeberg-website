@@ -7,6 +7,7 @@ import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
+import GoTop from '../../../components/global/GoTop';
 
 
 function Ambijus() {
@@ -42,6 +43,7 @@ function Ambijus() {
       Resultatet ble Ambijus."
      introLinkText="Ambijus" introLink="https://newmovements.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{ambijusPhotos}</div>
+      <GoTop />
       </div>
       <GoBack />
       <Footer />

@@ -6,19 +6,18 @@ import * as data from "../../components/json/InfoProducts.json";
 const dataArray= Array.from(data);
 
 function Products() {
-
   // setting types to be expected from data
   interface itemObjects {
     id: number,
     headline: string,
     intro: string,
     cost: string,
-    link: string
+    link: string,
+    more: string
   }
   
   return (
     <div className="product-container">
-     
       {dataArray.map((item:itemObjects) => {
         return (
           <div key={item.id} className="products">
@@ -34,7 +33,7 @@ function Products() {
             </div>
             <div className="row">
               <div className="col cta-products">
-                  <Link to={item.link}>Se mer</Link>
+                  <Link to={item.link}>{item.more}</Link>
               </div>
             </div>
             </div>
@@ -46,5 +45,4 @@ function Products() {
     </div>
   );
 }
-
 export default Products;

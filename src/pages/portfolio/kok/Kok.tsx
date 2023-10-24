@@ -8,6 +8,7 @@ import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import AboutIntroText from '../AboutIntroText';
 import scrollToTop from '../../../components/global/scrollToTop';
+import GoTop from '../../../components/global/GoTop';
 
 
 function Kok() {
@@ -41,6 +42,7 @@ function Kok() {
       introText="KOK Norge AS ble stiftet av Kristin Lorange i 2017. Siden den gang har KOK eskapendert både i innbyggernes interesse  og antall og drifter i dag 9 badstuer i Oslo."
       introLinkText="KOK" introLink="https://koknorge.no/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{kokPhotos}</div>
+      <GoTop />
       </div>
       <GoBack />
       <Footer />
