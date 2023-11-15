@@ -98,6 +98,7 @@ function ContactForm() {
             <option value="firma">Firma</option>
             <option value="privatpersoner">Privatpersoner</option>
             <option value="wedding">Bryllupsfotografering</option>
+            <option value="other">Bestilling av tidsskriftet KONTAKT</option>
             <option value="other">Annet</option>
           </select>
           <small className="form-error">{errors.subject?.message}</small>
@@ -109,7 +110,7 @@ function ContactForm() {
           </label>
           <textarea
             id="message"
-            placeholder="Skriv litt om hva du lurer på, tidspunkt (om du vet det), budsjett osv."
+            placeholder="Skriv litt om hva du lurer på."
             rows={3}
             {...register("message", {
               required:

@@ -21,20 +21,27 @@ export const imagesForPortfolio =
     },
     {
         "id": 4,
+        "title": "Wilder Kitchen",
+        "class": "wilderKitchen",
+        "link": "wilder-kitchen"
+
+    },
+    {
+        "id": 5,
         "title": "Vinbaren på Mølla",
         "class": "winebarMolla",
         "link": "vinbaren-pa-molla"
 
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Cliff Cabin",
         "class": "cliffCabin",
         "link": "cliff-cabin"
 
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Torungen design",
         "class": "torungenDesign",
         "link": "torungen-design"

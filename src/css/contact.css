@@ -14,7 +14,10 @@
     font-weight: 400;
     border-bottom: 1px solid #0000003a;
     padding: 0.5rem 0;
+    margin-bottom: 1rem;
 }
+
+
 .contact-form {
     padding: 1rem;
 }
@@ -76,9 +79,11 @@ textarea.input-field:focus {
     font-weight: 400
 }
 
+
+
 @media only screen and (min-width: 667px) { 
     .contact-intro,
-    .contact-form .container {
+    .contact-form .container  {
         width: 55vw;
     }
     .contact-intro {

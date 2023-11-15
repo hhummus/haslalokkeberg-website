@@ -5,7 +5,6 @@ import ContactForm from "./ContactForm";
 import Footer from "../../components/global/Footer";
 import HeaderComponent from "../products/HeaderComp";
 import "../../css/contact.css";
-import GoBack from "../../components/global/GoBack";
 import scrollToTop from "../../components/global/scrollToTop";
 
 
@@ -25,9 +24,10 @@ function ContactUs() {
       />
       <div className="container contact-intro">
         <h1>Fyll ut skjemaet for å komme i kontakt med oss.</h1>
+        <small className="contact-us-magazine">Om du skal bestille tidsskriftet KONTAKT velger du det fra alternativene i emnefeltet. Husk å skrive din adresse, ditt telefonnummer og ditt fulle navn i meldingsfeltet. Du får en bekreftelses e-post på din bestilling etter at eposten er sendt til oss.</small>
       </div>
+     
       <ContactForm />
-      <GoBack />
       <Footer />
     </>
   );

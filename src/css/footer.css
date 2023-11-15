@@ -4,9 +4,35 @@
     color: #000;
     padding: 2rem 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
-.globalFooterSoMe {
- margin: 0.8rem 0;
+
+.globalFooter .row {
+    align-items: center;
+}
+.globalFooter .col-12 {
+    padding-top: 0.3rem;
+}
+
+.globalFooter .contactUs {
+    text-decoration: none;
+}
+
+.globalFooterCopyright p {
+    margin-bottom: 0;
+}
+
+/* --------- SoMe icon -------*/
+.iconIg {
+    height: 25px;
+}
+
+.iconEmail {
+    height: 20px;
+    margin-left: 1rem;
+}
+
+.globalFooter .soMe {
+    margin-top: 1rem;
 }

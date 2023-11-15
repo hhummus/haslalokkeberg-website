@@ -1,46 +1,41 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import aboutUsImage from "../../img/om-oss-intro-image-optimized.jpg";
+import { useEffect } from "react";
+import aboutUsImage from "../../img/bli-kjent-2-optimized.jpg";
 import scrollToTop from "../../components/global/scrollToTop";
 
 function AboutUs() {
+
+  useEffect(() => {
+    scrollToTop()
+  }, []);
+
   return (
     <div className="aboutUs">
       <div className="container">
         <div className="row">
-          <h1 className="aboutPageTitle">
-            Vi er et oslobasert fotograf-firma som tar oppdrag for
-            privatpersoner og bedrifter.
-          </h1>
-          <p className="aboutPageIntro">
-            Vi har begge lang erfaring med fotografering både i analogt og
-            digitalt format. Vi jobber primært i Oslo og omegn men kan også
-            flytte oss dit du er.
-          </p>
-        </div>
-        <div className="aboutPageImgContainer">
-          <div className="row">
-            <img
-              src={aboutUsImage}
-              alt="stine hasla and helena løkkeberg in nature"
-              className="img-fluid"
-            />
+          <div className="col-lg-4 col-xl-6 aboutUsImageContainer">
+            <img src={aboutUsImage}  alt="Helena and Stine in front of mountains." className="aboutUsImage"/>
           </div>
-        </div>
-        <small className="aboutPageImageText">
-          Hasla-Løkkeberg Agentur ble grunnlagt i 2021 av Helena Løkkeberg og
-          Stine Hasla.
-        </small>
-        <div className="row">
-          <p className="getInTouch">
-            <Link to="/kontakt-oss" onClick={scrollToTop}>
-              Har du spørsmål? Kunne du tenkt deg en uforpliktende prat? Klikk
-              her for å sende oss en e-post.
-            </Link>
+          <div className="col-lg-8 col-xl-6 aboutUsP">
+          <p>Hasla-Løkkeberg Agentur ble etablert i 2021 av Stine Hasla og Helena Løkkeberg. Helena har studert kunstfoto ved DTK og kan skilte med flere soloutstillinger, prosjekter og fotoboken «Challenging the view». Stine etablerte i 2018 «Hasla Foto» og har  i en årrekke samarbeidet med ulike aktører innen mote, kunst og kultur. 
           </p>
-        </div>
+          <p>Hasla-Løkkeberg holder til på Torshov i Oslo, men vi flytter oss gjerne dit kunden befinner seg. 
+          </p>
+          <p>I 2021 bestemte vi oss for å skape tidsskriftet <Link to="/tidsskrift-kontakt" className="ctaInternal">KONTAKT </Link>og siden den gang har det kommet tre utgaver.
+          </p>
+          </div>
+         
+       
+        
+         
+         
+           
+       </div>
+        
       </div>
     </div>
+
   );
 }
 

@@ -38,6 +38,9 @@ function Navbarr() {
             <Link to="/prislister" className="nav-dropdown">
               Prislister
             </Link>
+            <Link to="/tidsskrift-kontakt" className="nav-dropdown">
+              Tidsskriftet KONTAKT
+            </Link>
             <Link to="/om-oss" className="nav-dropdown">
               Bli kjent med oss
             </Link>

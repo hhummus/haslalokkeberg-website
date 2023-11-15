@@ -5,7 +5,7 @@ import * as ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import {createBrowserRouter, RouterProvider}  from "react-router-dom";
-import AboutPage from "./pages/AboutPage";
+import AboutPage from "./pages/about/AboutPage";
 import ErrorPage from "./components/global/ErrorPage";
 import ContactUs from "./pages/contactUs/ContactUs";
 import Prices from "./pages/products/Prices";
@@ -17,6 +17,8 @@ import CliffCabin from "./pages/portfolio/cliff-cabin/CliffCabin";
 import Vinbaren from "./pages/portfolio/winebar-molla/Vinbaren";
 import Torungen from "./pages/portfolio/torungen/Torungen";
 import Wedding from "./pages/products/wedding/Wedding";
+import Magazine from "./pages/magazine/Magazine";
+import WilderKitchen from "./pages/portfolio/wilder-kitchen/WilderKitchen";
 
 
 const router = createBrowserRouter([
@@ -91,7 +93,21 @@ const router = createBrowserRouter([
     element: < Wedding />,
     errorElement: <ErrorPage />
      // bruk når man trykker på prislister -> Bryllup
-  }
+  },
+  {
+    path: "/tidsskrift-kontakt",
+    element: < Magazine />,
+    errorElement: <ErrorPage />
+     // bruk når man trykker på sjekk ut kontakt 
+  },
+  {
+    path: "tidligere-arbeid/wilder-kitchen",
+    element: <WilderKitchen />,
+    errorElement: <ErrorPage />
+     // bruk når man trykker på portfolio -> wilder kitchen
+  },
+  
+
 ]);
 
 

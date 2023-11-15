@@ -1,0 +1,138 @@
+.magazine-container {
+    margin-top: 4rem;
+}
+/* top information on magazine*/
+.magazine-intro-container .row {
+    justify-content: center
+}
+.magazine-image-container,
+.magazine-title-container {
+    margin-top: 0.8rem;
+}
+.magazine-image-container img{
+    width: 100%;
+    object-fit: cover;
+}
+.magazine-title {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0
+}
+.magazine-title-p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.magazine-p{
+    margin-top: 1rem;;
+}
+.magazine-about-p {
+    margin-bottom: 0;
+}
+/* the magazines */
+.magazine-books-container {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.magazine-title-container {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.magazine-h2 {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline;
+    text-transform: uppercase;
+}
+.magazine-sm {
+    padding-left: 0.4rem;
+}
+
+.magazine-one, 
+.magazine-two {
+    margin-top: 2.5rem;
+}
+
+.magazine-soldout,
+.magazine-order {
+    font-style: italic;
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.magazine-order a {
+    cursor: pointer;
+    color: #013165a2;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.magazine-order a:hover {
+    color: #013165cf;
+    transition: 0.1s ease-in-out;
+}
+
+
+.eachMagazine {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom:  0.01px solid #e5e7e621;
+}
+
+
+/* ----------- queries -------*/
+@media only screen and (min-width: 767px) { 
+    .magazine-image {
+        height: 360px;
+        overflow: hidden;
+    }
+    .eachMagazine {
+        border-right: 0.01px solid #e5e7e621;;
+    }
+    .magazine-p p{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .magazine-image {
+        height: 250px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .magazine-books-container {
+        width: 85vw;
+        margin: 0 auto;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .magazine-intro-container {
+        width: 65vw;
+        margin: 0 auto;
+        }
+}
+
+@media only screen and (min-width: 1500px) { 
+    .magazine-books-container {
+        width: 65vw;
+        margin: 0 auto;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .magazine-image {
+        height: 300px;
+        overflow: hidden;
+    }
+}
