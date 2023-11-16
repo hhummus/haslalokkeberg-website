@@ -1,13 +1,14 @@
 .navbar {
     background-color: #fff;
     padding: 1rem;
-    position: sticky;
+    position: fixed;
+    width: 100vw;
     z-index: 1;
     top: 0;
 }
 .navbar.active{
     opacity: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .navbar-logo, .nav-dropdown{

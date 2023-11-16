@@ -5,15 +5,23 @@ import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 
 function Navbarr() {
- 
   const [navbar, setNavbar] = useState(false);
 
+  let prevScrollPos = window.scrollY;
+
   const navbarOnScroll = () => {
-    if (window.scrollY >= 65) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+   // current scroll position
+  const currentScrollPos = window.scrollY;
+
+  if (prevScrollPos > currentScrollPos) {
+    // user has scrolled up
+    setNavbar(false);
+  } else {
+    // user has scrolled down
+   setNavbar(true)
+  }
+  // update previous scroll position
+  prevScrollPos = currentScrollPos;
   };
 
   window.addEventListener("scroll", navbarOnScroll);
