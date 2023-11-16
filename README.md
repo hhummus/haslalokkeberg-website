@@ -18,8 +18,6 @@
 
 ### Ongoing development of site -> bugs & fixes
 
-- photograph of founders on about page is not ideal on bigger screens. 
-- images are, overall, big and makes the site unnecessary slow.
 - customers should also get a confirmation email from the firm after they've sent an email, in addition to the visual confimation they get on the contact page after a (successfull) send.
 
    

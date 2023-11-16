@@ -43,7 +43,7 @@ const router = createBrowserRouter([
     // bruk når man trykker på kontakt
   },
   {
-    path: "prislister",
+    path: "/prislister",
     element: <Prices />,
     errorElement: <ErrorPage />,
     // bruk når man trykker på prislister
@@ -120,8 +120,6 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
      // bruk når man trykker på portfolio -> wilder kitchen
   }
-  
-
 ]);
 
 
