@@ -45,6 +45,19 @@ export const imagesForPortfolio =
         "title": "Torungen design",
         "class": "torungenDesign",
         "link": "torungen-design"
+    },
+    {
+        "id": 8,
+        "title": "Bergill",
+        "class": "bergill",
+        "link": "bergill"
+    },
+    {
+        "id": 9,
+        "title": "Sovesveis",
+        "class": "sovesveis",
+        "link": "sovesveis"
     }
+
    
 ]

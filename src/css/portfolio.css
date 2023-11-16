@@ -19,19 +19,19 @@
 }
 
 .ambijus {
-    background-image: url(../img/portfolio/ambijus/ambijus-optimized.jpg);
+    background-image: url(../img/portfolio/ambijus/ambijus-2-optimized.jpg);
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .newMovements {
-    background-image: url(../img/portfolio/new-movements/nm-optimized.jpg);
+    background-image: url(../img/portfolio/new-movements/nm-13-optimized.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 100px;
+    background-position: center;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,7 +42,7 @@
     background-image: url(../img/portfolio/cliff-cabin/cliff-cabin-optimized.jpg);
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,7 +52,7 @@
     background-image: url(../img/portfolio/vinbaren/vinbaren-optimized.jpg);
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,16 +61,16 @@
     background-image: url(../img/portfolio/kok/kok-optimized.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .torungenDesign {
-    background-image: url(../img/portfolio/torungen/torungen-2-optimized.jpg);
+    background-image: url(../img/portfolio/torungen/torungen-optimized.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 100px;
+    background-position: center;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -80,7 +80,27 @@
     background-image: url(../img/portfolio/wilder-kitchen/wk-1.JPG);
     background-size: cover;
     background-position: bottom;
-    height: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bergill {
+    background-image: url(../img/portfolio/bergill/bergill2-optimized.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sovesveis{
+    background-image: url(../img/portfolio/sovesveis/sovesveis-2-optimized.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;

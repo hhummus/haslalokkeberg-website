@@ -1,10 +1,10 @@
 /* applies for all top-headers on prices pages*/
 .pricesHeader {
-    height: 200px;
+    height: 250px;
 }
 .pricesHeaderTitle {
     position: relative;
-    top: 149.6px;
+    top: 200.6px;
     padding: 0 1.5rem 0 1.5rem;
 }
 .pricesHeaderTitle h1 {

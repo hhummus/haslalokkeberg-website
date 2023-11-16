@@ -19,6 +19,8 @@ import Torungen from "./pages/portfolio/torungen/Torungen";
 import Wedding from "./pages/products/wedding/Wedding";
 import Magazine from "./pages/magazine/Magazine";
 import WilderKitchen from "./pages/portfolio/wilder-kitchen/WilderKitchen";
+import Bergill from "./pages/portfolio/bergill/Bergill";
+import Sovesveis from "./pages/portfolio/sovesveis/Sovesveis";
 
 
 const router = createBrowserRouter([
@@ -106,6 +108,18 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
      // bruk når man trykker på portfolio -> wilder kitchen
   },
+  {
+    path: "tidligere-arbeid/bergill",
+    element: <Bergill />,
+    errorElement: <ErrorPage />
+     // bruk når man trykker på portfolio -> bergill
+  },
+  {
+    path: "tidligere-arbeid/sovesveis",
+    element: <Sovesveis />,
+    errorElement: <ErrorPage />
+     // bruk når man trykker på portfolio -> wilder kitchen
+  }
   
 
 ]);
