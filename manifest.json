@@ -1,0 +1,9 @@
+{
+    "short_name": "Hasla-Løkkeberg",
+    "name": "Hasla Løkkeberg Agentur",
+  
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#212121",
+    "background_color": "#ffffff"
+  }
