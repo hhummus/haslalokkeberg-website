@@ -85,7 +85,7 @@
     margin: 1rem;
 }
 
-@media only screen and (min-width: 777px) {
+@media only screen and (min-width: 992px) {
 
     .landingPageContainer {
         width: 75vw;
