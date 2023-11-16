@@ -39,8 +39,8 @@ function Ambijus() {
         <AboutIntroText 
         introTitle="Bergill" 
         introText="Åshild Bergill Hagen, kjent under artistnavnet «Bergill» er låtskriver og vokalist fra Eiker. Sjangeren hun frekventerer er jazzpop og budskapet i låtene omhandler de små hverdagsøyeblikkene som føles store. I 2023 slapp hun debutalbumet «Si noe» og høstet gode kritikker fra både anmeldere og den gemene hop. "
-        introLinkText="Bergill" 
-        introLink=""/>
+        introLinkText="Bergill"  introLinkWebsite="Spotify"
+        introLink="https://open.spotify.com/artist/71eBLTesFWVopfyOfCO7zx"/>
         <div className="portfolioPhotos row" id="portfolioPhotosWrap" >
           {bergillPhotos}
         </div>

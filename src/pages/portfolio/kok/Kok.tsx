@@ -40,7 +40,7 @@ function Kok() {
       <AboutIntroText 
       introTitle="KOK" 
       introText="KOK Norge AS ble stiftet av Kristin Lorange i 2017. Siden den gang har KOK eskapendert både i innbyggernes interesse  og antall og drifter i dag 9 badstuer i Oslo."
-      introLinkText="KOK" introLink="https://koknorge.no/"/>
+      introLinkText="KOK" introLinkWebsite="nettside" introLink="https://koknorge.no/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{kokPhotos}</div>
       <GoTop />
       </div>

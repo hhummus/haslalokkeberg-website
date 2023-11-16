@@ -40,7 +40,7 @@ function NewMovements() {
       introTitle="New Movements" 
       introText="New Movements så dagens lys i 2018 og ble stiftet av Martin Evensen. New Movements visjon er å gjøre den forbrukerorienterte gatemoten mer miljøvennlig. 
       Skoene er unisexmodeller og har lisser av resirkulerte plastflasker, en gummisåle som er kombinasjon av resirkulert og ny gummi, samt skinn fra et miljøsertifisert italiensk garveri."
-     introLinkText="New Movements" introLink="https://newmovements.com/"/>
+     introLinkText="New Movements" introLinkWebsite="nettbutikk" introLink="https://newmovements.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{nmPhotos}</div>
       <GoTop />
       </div>

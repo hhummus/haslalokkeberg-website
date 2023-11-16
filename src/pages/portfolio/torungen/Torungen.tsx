@@ -39,7 +39,7 @@ function NewMovements() {
       <AboutIntroText 
       introTitle="Torungen" 
       introText="Torungen Design ble stiftet av Kaja Baust i 1995. Med sitt tidløse design, inspirasjon fra Sørlandets skjærgård og garn fra Rauma er hun stadig like populær hos både Husfliden og kunder fra hele Norden."
-     introLinkText="Torungen design" introLink="https://www.torungendesign.no/"/>
+     introLinkText="Torungen design" introLinkWebsite="nettside" introLink="https://www.torungendesign.no/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{torungenPhotos}</div>
       <GoTop />
       </div>

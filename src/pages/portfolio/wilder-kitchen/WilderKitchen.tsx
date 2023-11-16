@@ -39,7 +39,7 @@ function Ambijus() {
       <AboutIntroText 
       introTitle="Wilder Kitchen" 
       introText="Kokk, fotograf og kunster Rebecca Hawkes startet opp det idealistiske konseptet Wilder Kitchen i 2021. Med fokus på sesongbaserte råvarer og det hun finner i naturen lager hun hver fjerde søndag spennende, veganske måltider på Losæter i Oslo. Hver enkelt betaler selv det man føler man har råd til og alle er velkommne. På denne måten får hun samlet mennesker fra alle lag til et felles måltid. Snakk om fantastisk dame!"
-     introLinkText="Wilder Kitchen av Rebecca Hawkes" introLink="https://www.hawkes.work/about"/>
+     introLinkText="Wilder Kitchen av Rebecca Hawkes" introLinkWebsite="nettside" introLink="https://www.hawkes.work/about"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{wkPhotos}</div>
       <GoTop />
       </div>
