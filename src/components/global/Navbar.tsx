@@ -8,6 +8,7 @@ function Navbarr() {
   const [navbar, setNavbar] = useState(false);
 
   let prevScrollPos = window.scrollY;
+  const topPage = 30;
 
   const navbarOnScroll = () => {
    // current scroll position
@@ -17,9 +18,15 @@ function Navbarr() {
     // user has scrolled up
     setNavbar(false);
   } else {
-    // user has scrolled down
-   setNavbar(true)
+      // user has scrolled down
+    setNavbar(true)
   }
+  
+  if(prevScrollPos <= topPage) {
+    // user is on top of page
+   setNavbar(false)
+  } 
+ 
   // update previous scroll position
   prevScrollPos = currentScrollPos;
   };

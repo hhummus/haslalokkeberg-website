@@ -1,4 +1,3 @@
-
 export const homepageNavigation = 
 [{
        "id": 1,
@@ -32,4 +31,3 @@ export const homepageNavigation =
         "link": "kontakt-oss"
     }
 ]
-   
