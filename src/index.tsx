@@ -1,12 +1,10 @@
 import * as React from "react";
-
+import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider}  from "react-router-dom";
 import "./index.css";
 import * as ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import {createBrowserRouter, RouterProvider}  from "react-router-dom";
 import AboutPage from "./pages/about/AboutPage";
-import ErrorPage from "./components/global/ErrorPage";
 import ContactUs from "./pages/contactUs/ContactUs";
 import Prices from "./pages/products/Prices";
 import Portfolio from "./pages/portfolio/Portfolio";
@@ -23,8 +21,30 @@ import Bergill from "./pages/portfolio/bergill/Bergill";
 import Sovesveis from "./pages/portfolio/sovesveis/Sovesveis";
 
 
-const router = createBrowserRouter([
-  {
+const router = createBrowserRouter( 
+  createRoutesFromElements(
+  
+  <Route>
+    <Route path="/" index element={ <App />}></Route>
+    <Route path="om-oss" element={ <AboutPage />}></Route>
+    <Route path="kontakt-oss" element={ <ContactUs />}></Route>
+    <Route path="/prislister" element={ <Prices />}></Route>
+    <Route path="/prislister/bryllup" element={<Wedding />}></Route>
+    <Route path="tidligere-arbeid" element={ <Portfolio />}></Route>
+    <Route path="tidligere-arbeid/kok" element={ <Kok />}></Route>
+    <Route path="tidligere-arbeid/new-movements" element={ <NewMovements />}></Route>
+    <Route path="tidligere-arbeid/ambijus" element={ <Ambijus />}></Route>
+    <Route path="tidligere-arbeid/cliff-cabin" element={ <CliffCabin />}></Route>
+    <Route path="tidligere-arbeid/vinbaren-pa-molla" element={ <Vinbaren />}></Route>
+    <Route path="tidligere-arbeid/torungen-design" element={ <Torungen />}></Route>
+    <Route path="tidligere-arbeid/wilder-kitchen" element={ <WilderKitchen/>}></Route>
+    <Route path="tidligere-arbeid/bergill" element={ <Bergill />}></Route>
+    <Route path="tidligere-arbeid/sovesveis" element={ <Sovesveis />}></Route>
+    <Route path="/tidsskrift-kontakt" element={<Magazine />}></Route>
+  </Route>
+  ))
+
+   /*  }
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
@@ -119,8 +139,8 @@ const router = createBrowserRouter([
     element: <Sovesveis />,
     errorElement: <ErrorPage />
      // bruk når man trykker på portfolio -> wilder kitchen
-  }
-]);
+  } */
+/* ])); */
 
 
 
@@ -137,3 +157,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
