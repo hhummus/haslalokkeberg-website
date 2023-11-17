@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2379ba56.css",
-    "main.js": "/static/js/main.f4dc365a.js",
+    "main.js": "/static/js/main.3cf81a40.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
     "static/media/sovesveis-7-optimized.jpg": "/static/media/sovesveis-7-optimized.9ff4ab38d9a4b0b86da9.jpg",
     "static/media/kontakt02-optimized.jpg": "/static/media/kontakt02-optimized.2b46408ecdedc9ccd684.jpg",
@@ -106,11 +106,11 @@
     "index.html": "/index.html",
     "static/media/bars-solid-white.svg": "/static/media/bars-solid-white.959bf26f4724192a78c5.svg",
     "main.2379ba56.css.map": "/static/css/main.2379ba56.css.map",
-    "main.f4dc365a.js.map": "/static/js/main.f4dc365a.js.map",
+    "main.3cf81a40.js.map": "/static/js/main.3cf81a40.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2379ba56.css",
-    "static/js/main.f4dc365a.js"
+    "static/js/main.3cf81a40.js"
   ]
 }
