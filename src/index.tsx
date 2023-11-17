@@ -44,114 +44,14 @@ const router = createBrowserRouter(
   </Route>
   ))
 
-   /*  }
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-    // bruk når man trykker på logo
-  },
-  {
-    path: "om-oss",
-    element: <AboutPage />,
-    errorElement: <ErrorPage />,
-    // bruk når man trykker på om oss
-  },
-  {
-    path: "kontakt-oss",
-    element: <ContactUs />,
-    errorElement: <ErrorPage />,
-    // bruk når man trykker på kontakt
-  },
-  {
-    path: "/prislister",
-    element: <Prices />,
-    errorElement: <ErrorPage />,
-    // bruk når man trykker på prislister
-  },
-  {
-    path: "tidligere-arbeid",
-    element: <Portfolio />,
-    errorElement: <ErrorPage />,
-    // bruk når man trykker på portfolio
-  },
-  {
-    path: "tidligere-arbeid/kok",
-    element: <Kok />,
-    errorElement: <ErrorPage />
-     // bruk når man trykker på portfolio -> KOK 
-  },
-  {
-  path: "tidligere-arbeid/new-movements",
-  element: <NewMovements />,
-  errorElement: <ErrorPage />
-   // bruk når man trykker på portfolio -> New movements  
-  },
-  {
-    path: "tidligere-arbeid/ambijus",
-    element: <Ambijus />,
-    errorElement: <ErrorPage />
-      // bruk når man trykker på portfolio -> Ambijus
-  },
-  {
-    path: "tidligere-arbeid/cliff-cabin",
-    element: <CliffCabin />,
-    errorElement: <ErrorPage />
-      // bruk når man trykker på portfolio -> Cliff Cabin 
-  },
-  {
-    path: "tidligere-arbeid/vinbaren-pa-molla",
-    element: <Vinbaren />,
-    errorElement: <ErrorPage />
-    // bruk når man trykker på portfolio -> Vinbaren
-  },
-  {
-    path: "tidligere-arbeid/torungen-design",
-    element: < Torungen />,
-    errorElement: <ErrorPage />
-    // bruk når man trykker på portfolio -> Torungen
-  },
-  {
-    path: "prislister/bryllup",
-    element: < Wedding />,
-    errorElement: <ErrorPage />
-     // bruk når man trykker på prislister -> Bryllup
-  },
-  {
-    path: "/tidsskrift-kontakt",
-    element: < Magazine />,
-    errorElement: <ErrorPage />
-     // bruk når man trykker på sjekk ut kontakt 
-  },
-  {
-    path: "tidligere-arbeid/wilder-kitchen",
-    element: <WilderKitchen />,
-    errorElement: <ErrorPage />
-     // bruk når man trykker på portfolio -> wilder kitchen
-  },
-  {
-    path: "tidligere-arbeid/bergill",
-    element: <Bergill />,
-    errorElement: <ErrorPage />
-     // bruk når man trykker på portfolio -> bergill
-  },
-  {
-    path: "tidligere-arbeid/sovesveis",
-    element: <Sovesveis />,
-    errorElement: <ErrorPage />
-     // bruk når man trykker på portfolio -> wilder kitchen
-  } */
-/* ])); */
-
-
-
-const rootElement = document.getElementById("root")
-// specifying type of rootElement as html element. id root will always exist
-const root = ReactDOM.createRoot(rootElement as HTMLElement);
-root.render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>
-);
+  const rootElement = document.getElementById("root")
+    // specifying type of rootElement as html element. id root will always exist
+  const root = ReactDOM.createRoot(rootElement as HTMLElement);
+  root.render(
+    <React.StrictMode>
+      <RouterProvider router={router}/>
+    </React.StrictMode>
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
