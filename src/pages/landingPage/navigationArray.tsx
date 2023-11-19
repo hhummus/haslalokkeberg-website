@@ -29,5 +29,11 @@ export const homepageNavigation =
         "title": "kontakt oss",
         "class": "contactUsLink",
         "link": "kontakt-oss"
+    },
+    {
+        "id": 5,
+        "title": "samarbeid Airbnb",
+        "class": "airBnbLink",
+        "link": "samarbeid-airBnb"
     }
 ]

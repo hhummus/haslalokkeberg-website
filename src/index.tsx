@@ -19,6 +19,7 @@ import Magazine from "./pages/magazine/Magazine";
 import WilderKitchen from "./pages/portfolio/wilder-kitchen/WilderKitchen";
 import Bergill from "./pages/portfolio/bergill/Bergill";
 import Sovesveis from "./pages/portfolio/sovesveis/Sovesveis";
+import AirBnb from "./pages/airbnb/AirBnb";
 
 
 const router = createBrowserRouter( 
@@ -41,6 +42,7 @@ const router = createBrowserRouter(
     <Route path="tidligere-arbeid/bergill" element={ <Bergill />}></Route>
     <Route path="tidligere-arbeid/sovesveis" element={ <Sovesveis />}></Route>
     <Route path="/tidsskrift-kontakt" element={<Magazine />}></Route>
+    <Route path="/samarbeid-airBnb" element={<AirBnb />}></Route>
   </Route>
   ))
 

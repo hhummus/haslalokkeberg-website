@@ -84,6 +84,16 @@
     align-items: center;
     margin: 1rem;
 }
+.airBnbLink {
+    background-image: url("../img/airBnb/airbnb-43.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
 
 @media only screen and (min-width: 992px) {
 
