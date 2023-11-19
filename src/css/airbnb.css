@@ -1,0 +1,26 @@
+.airbnb-title {
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.airbnb-contact-us {
+    text-decoration: none;
+    cursor: pointer;
+    color: #013165a2;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 667px) {
+    .airbnb-container {
+    padding-top: 4rem;
+}
+}
+@media only screen and (min-width: 1040px) {
+    .span-block {
+        display: block;;
+    }
+}
