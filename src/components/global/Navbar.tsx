@@ -48,7 +48,10 @@ function Navbarr() {
           <div className="nav-dropdown-divider"></div>
           <Nav className="mr-auto">
           <Link to="/tidligere-arbeid" className="nav-dropdown">
-              Samarbeid
+              Tidligere arbeid
+            </Link>
+            <Link to="/samarbeid-airbnb" className="nav-dropdown">
+              Samarbeid Airbnb
             </Link>
             <Link to="/prislister" className="nav-dropdown">
               Prislister
