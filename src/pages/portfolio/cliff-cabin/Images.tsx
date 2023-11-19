@@ -8,6 +8,8 @@ import cliffCabinImgSeven from "../../../img/portfolio/cliff-cabin/cliff-cabin-7
 import cliffCabinImgEight from "../../../img/portfolio/cliff-cabin/cliff-cabin-8-optimized.jpg";
 import cliffCabinImgNine from "../../../img/portfolio/cliff-cabin/cliff-cabin-9-optimized.jpg";
 import cliffCabinImgTen from "../../../img/portfolio/cliff-cabin/cliff-cabin-10-optimized.jpg";
+import cliffCabinImgEleven from "../../../img/portfolio/cliff-cabin/cliff-cabin-11-optimized.jpg";
+import cliffCabinImgTwelve from "../../../img/portfolio/cliff-cabin/cliff-cabin-12-optimized.jpg";
 
 
 
@@ -22,7 +24,9 @@ const cliffCabinImagesArray = [
   cliffCabinImgSeven,
   cliffCabinImgEight,
   cliffCabinImgNine,
-  cliffCabinImgTen
+  cliffCabinImgTen,
+  cliffCabinImgEleven,
+  cliffCabinImgTwelve
   
 ]
 
