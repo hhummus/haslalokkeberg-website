@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AirBnbImagesArray from './Images';
 import Navbarr from '../../components/global/Navbar'
-import GoBack from '../../components/global/GoBack';
 import Footer from '../../components/global/Footer';
 import scrollToTop from '../../components/global/scrollToTop';
 import GoTop from '../../components/global/GoTop';
@@ -43,7 +42,6 @@ function Ambijus() {
             <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{airBnbPhotos}</div>
             <GoTop />
         </div>
-        <GoBack />
         <Footer />
     </div>
     
