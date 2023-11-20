@@ -29,6 +29,13 @@
 .magazine-about-p {
     margin-bottom: 0;
 }
+
+.contact-price {
+    margin-bottom: 0;
+}
+.contact-shipping {
+    font-style: italic;
+}
 /* the magazines */
 .magazine-books-container {
     margin-top: 6rem;

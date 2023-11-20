@@ -20,7 +20,7 @@ function Magazine() {
     <div>
         <Navbarr />
         <div className="container magazine-container">
-            <div className="row magazine-intro-container">
+            <div className="magazine-intro-container">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="col-md-12 magazine-image-container">
@@ -29,7 +29,8 @@ function Magazine() {
                         <div className="col-md-12 magazine-title-container">
                             <h1 className="magazine-title">KONTAKT <span className="magazine-title-p">er et tidsskrift som har hovedforankring i analoge foto og har en ambisjon om å være et friskt tilskudd i skjæringspunktet mellom natur og kultur. Hver utgave har ulik tilnærming til disse temaene. KONTAKT finner du bla.a på KURO, Oslo Velo, Oslo Foto, Hasla Jewlery og Prisløs.</span></h1>
                         </div>
-                        <p>KONTAKT koster 199 NOK.</p>
+                        <p className="contact-price">Pris 199,-</p>
+                        <small className="contact-shipping">Det blir lagt på 89,- for frakt med Helthjem ved bestilling.</small>
                     </div>
                 </div>
             </div>

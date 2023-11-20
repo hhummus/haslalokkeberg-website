@@ -50,7 +50,7 @@
 
 
 /* ------------------ when screen is bigger than 992 -------------------*/
-@media only screen and (min-width: 992px) { 
+@media only screen and (min-width: 772px) { 
     .navbar-nav {
         display: inline;
     }

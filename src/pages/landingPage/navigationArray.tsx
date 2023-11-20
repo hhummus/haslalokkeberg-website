@@ -1,7 +1,7 @@
 export const homepageNavigation = 
 [{
        "id": 1,
-       "title": "bli kjent med oss",
+       "title": "om oss",
        "class":  "aboutUsLink",
        "link": "om-oss"
     },

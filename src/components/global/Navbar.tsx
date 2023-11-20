@@ -60,7 +60,7 @@ function Navbarr() {
               Tidsskriftet KONTAKT
             </Link>
             <Link to="/om-oss" className="nav-dropdown">
-              Bli kjent med oss
+              Om oss
             </Link>
             <Link to="/kontakt-oss" className="nav-dropdown">
               Kontakt oss
