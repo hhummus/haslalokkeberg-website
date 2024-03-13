@@ -98,24 +98,6 @@
 .prices-info-text p {
     font-size: 16px;
 }
-.wedding-contact-button {
-    margin: 2rem 0;
-    cursor: pointer;
-}
-/* ---------------- wedding -------------*/
-.weddingHeaderImage {
-    background-image: url("../img/priser/bryllup/sjomann/bryllup-4-optimized.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.wedding-contact-button a{
-font-style: italic;
-text-decoration: none;
-border: none;
-color: black;
-font-weight: 400;
-}
 
 @media only screen and (min-width: 576px) {
     .product-price p {

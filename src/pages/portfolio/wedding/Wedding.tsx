@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useEffect } from 'react';
-import wilderImagesArray from './Images';
+import weddingImagesArray from './Images';
 import Navbarr from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
@@ -9,19 +9,17 @@ import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
 import GoTop from '../../../components/global/GoTop';
 
-
-function WilderKitchen() {
-
+function Wedding() {
  useEffect(() => {
   scrollToTop()
  }, []);
 
-  const wkPhotos = wilderImagesArray.map((image: string) => {
+  const weddingPhotos = weddingImagesArray.map((image: string) => {
     return (
       <div className="portfolio-image-container col-sm-12 col-md-4 col-lg-3">
         <img
           src={image}
-          alt="Wilder Kitchen"
+          alt="Bryllupsbilder"
           className="portfolioImageWidth img-fluid"
         ></img>
       </div>
@@ -37,10 +35,11 @@ function WilderKitchen() {
       />
       <div className="container portfolioIndividualContainer">
       <AboutIntroText 
-      introTitle="Wilder Kitchen" 
-      introText="Kokk, fotograf og kunster Rebecca Hawkes startet opp det idealistiske konseptet Wilder Kitchen i 2021. Med fokus på sesongbaserte råvarer og det hun finner i naturen lager hun hver fjerde søndag spennende, veganske måltider på Losæter i Oslo. Hver enkelt betaler selv det man føler man har råd til og alle er velkommne. På denne måten får hun samlet mennesker fra alle lag til et felles måltid. Snakk om fantastisk dame!"
-     introLinkText="Besøk Wilder Kitchen av Rebecca Hawkes sin nettside her"  introLink="https://www.hawkes.work/about"/>
-      <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{wkPhotos}</div>
+      introTitle="Gratulerer med forlovelse og planlegging av den store dagen deres!" 
+      introText= "Det å få forevige bryllup er kanskje den største tillitserklæringen en fotograf kan få. Det er mye som skjer på mange plan og ikke minst er det ofte en anledning til å samle nære og kjære som kanskje ikke ser hverandre så ofte. Med andre ord er det viktig at dagen blir skikkelig bra!"
+
+     introLinkText="Kontakt oss her for en uforpliktende prat" introLink="/kontakt-oss"/>
+      <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{weddingPhotos}</div>
       <GoTop />
       </div>
       <GoBack />
@@ -50,4 +49,4 @@ function WilderKitchen() {
   )
 }
 
-export default WilderKitchen;
+export default Wedding

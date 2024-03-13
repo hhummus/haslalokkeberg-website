@@ -16,7 +16,7 @@ import weddingNineteen from "../../../img/priser/bryllup/sjomann/bryllup-4-optim
 import weddingTwenty from "../../../img/priser/bryllup/sjomann/bryllup-5-optimized.jpg";
 import weddingTwentyOne from "../../../img/priser/bryllup/sjomann/bryllup-optimized.jpg";
 
-const weddingPhotosArray = [
+const weddingImagesArray = [
     weddingTwo,
     weddingThree,
     weddingFour,
@@ -35,4 +35,4 @@ const weddingPhotosArray = [
     weddingTwenty,
     weddingTwentyOne
 ]
-export default weddingPhotosArray
+export default weddingImagesArray

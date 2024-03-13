@@ -6,7 +6,6 @@ interface AboutIntroTextProp {
     introText: string,
     introLink: string,
     introLinkText: string,
-    introLinkWebsite: string
 }
 
 function AboutIntroText(props: AboutIntroTextProp) {
@@ -14,7 +13,7 @@ function AboutIntroText(props: AboutIntroTextProp) {
     <div className="aboutIntroText">
     <h2>{props.introTitle}</h2>
      <p>{props.introText}</p>
-     <Link to={props.introLink} target="_blank" className="visitCta">Besøk {props.introLinkText} sin {props.introLinkWebsite} her</Link>
+     <Link to={props.introLink} target="_blank" className="visitCta">{props.introLinkText} </Link>
     </div>
    
   )

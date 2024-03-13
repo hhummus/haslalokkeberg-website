@@ -10,7 +10,7 @@ function Footer() {
       <div className="container">
       <div className="row">
         <div className="col-12 globalFooterCopyright">
-            <p>© 2023 haslalokkeberg</p>
+            <p>© 2024 haslalokkeberg</p>
             <p>
              Nettside av Helena Løkkeberg
             </p>
@@ -21,16 +21,8 @@ function Footer() {
             <Link to="https://www.instagram.com/haslalokkeberg/" target="_blank"><img src={iconIg} alt="instagram icon" className="iconIg"></img></Link>
           </div>
         </div>
-        
-      
-      
-         
-      
         </div>
-          
       </div>
-   
-    
   );
 }
 

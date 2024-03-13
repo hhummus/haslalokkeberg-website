@@ -39,7 +39,7 @@
 }
 
 .cliffCabin {
-    background-image: url(../img/portfolio/cliff-cabin/cliff-cabin-optimized.jpg);
+    background-image: url(../img/portfolio/cliff-cabin/cliff-cabin-3-optimized.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -98,6 +98,16 @@
 
 .sovesveis{
     background-image: url(../img/portfolio/sovesveis/sovesveis-2-optimized.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wedding{
+    background-image: url(../img/priser/bryllup/sjomann/bryllup-4-optimized.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;

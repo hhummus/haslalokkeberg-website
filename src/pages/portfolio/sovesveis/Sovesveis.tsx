@@ -41,7 +41,7 @@ function Ambijus() {
       introText="OIa G. Snippen bor på et lite småbruk i Telemark, kalt Lykka. Der jobber han med foto, kunst og tekstil-håndverk. 
       Våren 2023 fullførte han sin bachelor i Kunst, design og handverk ved Høgskulen i Volda, der oppgaven hans handlet om hvordan å se «det magiske i naturen»
       Kjærligheten for natur og bærekraft resulterte i merket Sovesveis.  "
-     introLinkText="Sovesveis av Ola G Snippen"  introLinkWebsite="nettbutikk" introLink="https://www.znippen.no/om-sovesveis"/>
+     introLinkText="Se Sovesveis av Ola G Snippen sin nettbutikk her"  introLink="https://www.znippen.no/om-sovesveis"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{sovesveisPhotos}</div>
       <GoTop />
       </div>

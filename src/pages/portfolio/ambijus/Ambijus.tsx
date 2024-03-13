@@ -41,7 +41,7 @@ function Ambijus() {
       introText="Ambijus ble grunnlagt av Christian & Alexander, to brødre som fra ung alder av har vært inspirert av naturen i hjemlandet Norge. I 2015 la de ut på et eventyr for å lansere Norges første premium alkoholfrie drikkedistributør, LESKE.
       I løpet av denne prosessen fikk de møte inspirerende nordiske kokker og sommelierer. De begynte å forstå at det manglet alkoholfrie alternativer til vin, og de satte seg fore å redefinere kategorien.
       Resultatet ble Ambijus."
-     introLinkText="Ambijus" introLinkWebsite="nettbutikk" introLink="https://www.ambijus.com/"/>
+     introLinkText="Besøk Ambijus sin nettbutikk her" introLink="https://www.ambijus.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{ambijusPhotos}</div>
       <GoTop />
       </div>
