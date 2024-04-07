@@ -8,6 +8,7 @@ import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
 import GoTop from '../../../components/global/GoTop';
+import WeddingText from './WeddingText';
 
 function Wedding() {
  useEffect(() => {
@@ -28,19 +29,22 @@ function Wedding() {
 
   return (
     <div>
-        <Navbarr />
-        <HeaderComponent 
-       pricesImage="portfolioHeaderImage"
-       titlePricesHeader="Tidligere arbeid"
+      <Navbarr />
+      <HeaderComponent 
+        pricesImage="portfolioHeaderImage"
+        titlePricesHeader="Tidligere arbeid"
       />
       <div className="container portfolioIndividualContainer">
-      <AboutIntroText 
-      introTitle="Gratulerer med forlovelse og planlegging av den store dagen deres!" 
-      introText= "Det å få forevige bryllup er kanskje den største tillitserklæringen en fotograf kan få. Det er mye som skjer på mange plan og ikke minst er det ofte en anledning til å samle nære og kjære som kanskje ikke ser hverandre så ofte. Med andre ord er det viktig at dagen blir skikkelig bra!"
-
-     introLinkText="Kontakt oss her for en uforpliktende prat" introLink="/kontakt-oss"/>
-      <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{weddingPhotos}</div>
-      <GoTop />
+        <WeddingText />
+        <AboutIntroText 
+          introTitle="" 
+          introText= ""
+          introLinkText="Kontakt oss her for en uforpliktende prat" introLink="/kontakt-oss"
+        />
+        <div className="portfolioPhotos row" id="portfolioPhotosWrap">
+          {weddingPhotos}
+        </div>
+        <GoTop />
       </div>
       <GoBack />
       <Footer />

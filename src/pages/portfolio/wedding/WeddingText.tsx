@@ -1,6 +1,12 @@
-import * as React from 'react'
+import * as React from 'react';
+import { useState } from 'react';
+import "../../../css/weddingText.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown, faAngleUp} from '@fortawesome/free-solid-svg-icons';
 
-export default function WeddingText() {
+function WeddingText() {
+
+  const [isVisible, setIsVisible] = useState(false)
   
   return (
     <div> 
@@ -8,7 +14,13 @@ export default function WeddingText() {
     <p>Det å få forevige bryllup er kanskje den største tillitserklæringen en fotograf kan få.</p>
     <p>Det er mye som skjer på mange plan og ikke minst er det ofte en anledning til å samle nære og kjære som kanskje ikke ser hverandre så ofte. Med andre ord er det viktig at dagen blir skikkelig bra!
       Vi vil gjerne gjøre vårt for å senke stressnivået, få brudepar og gjester til å føle seg vel og ikke minst få dokumentert små og store begivenheter gjennom hele dagen. 
-      Vi tar alltid et møte med dere i forkant for å bli bedre kjent og sammen finne ut hvordan vi kan hjelpe dere med den store begivenheten på best mulig måte.</p>
+      Vi tar alltid et møte med dere i forkant for å bli bedre kjent og sammen finne ut hvordan vi kan hjelpe dere med den store begivenheten på best mulig måte.
+        <span id="readMoreWedding" onClick={() => setIsVisible(!isVisible)}>
+          {isVisible ? <span>   <FontAwesomeIcon icon={faAngleUp} size='xs'/></span> : <span id="readMoreWedding"> ...Les mer <FontAwesomeIcon icon={faAngleDown} size='xs'/> </span> }
+        </span>
+      </p>
+    {isVisible &&(
+    <div>
     <p>En av våre fordeler er at vi er to.
       Det gjør at vi kan få dokumentert på flere hold samtidig, noe som er spesielt fint i de øyeblikkene dere selv ikke får vært til stede, men da likevel kan få ta del i gjennom bildene
       etterkant.</p>
@@ -18,6 +30,10 @@ export default function WeddingText() {
     <p>Vi tar hovedsakelig bilder med analoge kamera, men om dere ønsker så kan vi også tilby noe digitalt. Dere vil få tilsendt de fineste bildene ferdig etterarbeidet innen 2-5 dager etter bryllupet.</p>
     <p>Alle bilder leveres digitalt via lenke for nedlastning til pc og mobil. Vi pakker og sender også negativene med posten, dette gjør at dere står helt fritt til å velge mellom absolutt all! bildene fra dagen deres om hvilke som skal blåses opp og henges på veggen i hjemmet. </p>
     <p>Vårt mål er få fanget flest mulig ekte øyeblikk. Stemningsbilder dere blir glad, og muligens litt rørt, av å se på i etterkant.</p>
+    </div> 
+    )}
     </div>
-  )
-}
+  );
+};
+
+export default WeddingText;
