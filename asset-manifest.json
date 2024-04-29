@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e77defb.css",
-    "main.js": "/static/js/main.9fcba6fd.js",
+    "main.css": "/static/css/main.74599e60.css",
+    "main.js": "/static/js/main.dd128cec.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
@@ -135,7 +135,6 @@
     "static/media/nm-13-optimized.jpg": "/static/media/nm-13-optimized.39684b8663a7e8205c35.jpg",
     "static/media/bli-kjent-2-optimized.jpg": "/static/media/bli-kjent-2-optimized.d870029dc72f52330798.jpg",
     "static/media/social-8-optimized.jpg": "/static/media/social-8-optimized.c74274dbb485e1d4c8d3.jpg",
-    "static/media/ig-icon.png": "/static/media/ig-icon.0963b7a591227164566c.png",
     "static/media/kok-8-optimized.jpg": "/static/media/kok-8-optimized.486b9ea26b4d8ac84b5e.jpg",
     "static/media/ambijus-2-optimized.jpg": "/static/media/ambijus-2-optimized.0b43a7f086f7871ca407.jpg",
     "static/media/nm-3-optimized.jpg": "/static/media/nm-3-optimized.b9cbf6f24b37b83ac984.jpg",
@@ -146,12 +145,12 @@
     "static/media/bergill-optimized.jpg": "/static/media/bergill-optimized.6e7e8e8e03d53da7281d.jpg",
     "index.html": "/index.html",
     "static/media/bars-solid-white.svg": "/static/media/bars-solid-white.959bf26f4724192a78c5.svg",
-    "main.7e77defb.css.map": "/static/css/main.7e77defb.css.map",
-    "main.9fcba6fd.js.map": "/static/js/main.9fcba6fd.js.map",
+    "main.74599e60.css.map": "/static/css/main.74599e60.css.map",
+    "main.dd128cec.js.map": "/static/js/main.dd128cec.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e77defb.css",
-    "static/js/main.9fcba6fd.js"
+    "static/css/main.74599e60.css",
+    "static/js/main.dd128cec.js"
   ]
 }
