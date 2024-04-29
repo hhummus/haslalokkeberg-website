@@ -1,26 +1,38 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import "../../css/footer.css";
-import iconIg from "../../img/icons/ig-icon.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 
 
 function Footer() {
   return (
     <div className="globalFooter">
-      <div className="container">
-      <div className="row">
-        <div className="col-12 globalFooterCopyright">
-            <p>© 2024 haslalokkeberg</p>
-            <p>
-             Nettside av Helena Løkkeberg
-            </p>
-        </div>
-        </div>
-        <div className="row">
-          <div className=" col-12 soMe">
-            <Link to="https://www.instagram.com/haslalokkeberg/" target="_blank"><img src={iconIg} alt="instagram icon" className="iconIg"></img></Link>
+      
+
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 col-md-6 globalFooterCopyright">
+              <p>© 2024 haslalokkeberg</p>
+            </div>
+            <div className=" col-sm-12 col-md-6 soMe">
+            <Link to="https://www.instagram.com/haslalokkeberg/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></Link>
+            <Link to="/kontakt-oss"><FontAwesomeIcon icon={faEnvelope} /></Link>
+          </div>        
           </div>
         </div>
+        <div className="container">
+        <div className="row">
+          
+        </div>
+      </div>
+        <div className="row websiteBy">
+          <div className="col-12"> 
+          <small>
+             Nettside av Helena Løkkeberg
+            </small></div>
         </div>
       </div>
   );

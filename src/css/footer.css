@@ -1,6 +1,4 @@
-
 .globalFooter {
-    margin: 4rem 0 2rem 0;
     color: #000;
     padding: 2rem 0;
     font-weight: 400;
@@ -19,20 +17,29 @@
     text-decoration: none;
 }
 
-.globalFooterCopyright p {
-    margin-bottom: 0;
-}
 
+.websiteBy {
+    margin-top: 4rem;
+}
 /* --------- SoMe icon -------*/
-.iconIg {
-    height: 25px;
+.globalFooter .soMe a{
+    padding: 0 1rem 0 1rem;
+    color: black;
+    cursor: pointer;
 }
 
-.iconEmail {
+.svg-inline--fa {
     height: 20px;
-    margin-left: 1rem;
 }
 
-.globalFooter .soMe {
-    margin-top: 1rem;
+
+
+@media only screen and (min-width: 992px) {
+    .globalFooterCopyright,
+    .globalFooter .soMe {
+ 
+        margin: 0 auto;
+    }
+
+
 }

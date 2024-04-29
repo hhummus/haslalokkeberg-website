@@ -6,7 +6,7 @@ function ArticleAbout() {
       <div className="landingImage"></div>
       <div className="landingPageIntro">
         <h1 className="landingPageIntroText">
-          Et Oslobasert fotograf-firma{" "}
+          Et Fredrikstadbasert fotograf-firma{" "}
           <span className="textSpan">som tar oppdrag for</span>
           privatpersoner og bedrifter.
         </h1>
