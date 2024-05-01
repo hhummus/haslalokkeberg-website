@@ -24,15 +24,8 @@ function AboutUs() {
           </p>
           <p>I 2021 bestemte vi oss for å skape tidsskriftet <Link to="/tidsskrift-kontakt" className="ctaInternal">KONTAKT </Link>og siden den gang har det kommet tre utgaver.
           </p>
-          </div>
-         
-       
-        
-         
-         
-           
+          </div> 
        </div>
-        
       </div>
     </div>
 
