@@ -2,31 +2,26 @@
     margin-top: 4rem;
 }
 /* top information on magazine*/
-.magazine-intro-container .row {
-    justify-content: center
-}
+
 .magazine-image-container,
-.magazine-title-container {
+.magazine-pitch-container {
     margin-top: 0.8rem;
 }
 .magazine-image-container img{
     width: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
 }
-.magazine-title {
-    font-size: 18px;
-    font-weight: 500;
+.magazine-pitch {
+    font-size: 16px;
+    font-weight: 200;
     padding: 0
 }
-.magazine-title-p {
-    font-weight: 200;
-    font-size: 16px;
-}
 
-.magazine-p{
-    margin-top: 1rem;;
-}
+
+
 .magazine-about-p {
+    margin-top: 0.8rem;
     margin-bottom: 0;
 }
 
@@ -37,6 +32,9 @@
     font-style: italic;
 }
 /* the magazines */
+.justify-text {
+    justify-content: center;
+}
 .magazine-books-container {
     margin-top: 6rem;
     margin-bottom: 4rem;
@@ -72,6 +70,18 @@
     font-size: 16px;
 }
 
+.magazine-comingSoon {
+    background-color: #013165a2;
+    padding: 0.4rem;
+    margin: 0.6rem 0.6rem 0 0.6rem;
+}
+.magazine-comingSoon p {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-style: italic;
+    cursor: not-allowed;
+}
 .magazine-order a {
     cursor: pointer;
     color: #013165a2;
@@ -94,6 +104,20 @@
 
 
 /* ----------- queries -------*/
+@media only screen and (min-width: 576px) {
+    .magazine-about-p  {
+        margin-top: 0;
+    } 
+}
+
+@media only screen and (min-width: 667px) {
+    .magazine-intro-container {
+        width: 65vw;
+        margin: 0 auto;
+        padding-top: 4rem;
+    } 
+}
+
 @media only screen and (min-width: 767px) { 
     .magazine-image {
         height: 360px;
@@ -102,8 +126,8 @@
     .eachMagazine {
         border-right: 0.01px solid #e5e7e621;;
     }
-    .magazine-p p{
-        margin-top: 0;
+    .magazine-p {
+        margin-top: 0.8rem;
     }
 }
 
@@ -122,12 +146,7 @@
     }
 }
 
-@media only screen and (min-width: 1350px) {
-    .magazine-intro-container {
-        width: 65vw;
-        margin: 0 auto;
-        }
-}
+
 
 @media only screen and (min-width: 1500px) { 
     .magazine-books-container {
