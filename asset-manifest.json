@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.74599e60.css",
-    "main.js": "/static/js/main.dd128cec.js",
+    "main.css": "/static/css/main.99dfb84f.css",
+    "main.js": "/static/js/main.7a48f50d.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
+    "static/media/kontakt04.png": "/static/media/kontakt04.997d8aee6bef74c796fb.png",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
     "static/media/sovesveis-7-optimized.jpg": "/static/media/sovesveis-7-optimized.9ff4ab38d9a4b0b86da9.jpg",
@@ -145,12 +146,12 @@
     "static/media/bergill-optimized.jpg": "/static/media/bergill-optimized.6e7e8e8e03d53da7281d.jpg",
     "index.html": "/index.html",
     "static/media/bars-solid-white.svg": "/static/media/bars-solid-white.959bf26f4724192a78c5.svg",
-    "main.74599e60.css.map": "/static/css/main.74599e60.css.map",
-    "main.dd128cec.js.map": "/static/js/main.dd128cec.js.map",
+    "main.99dfb84f.css.map": "/static/css/main.99dfb84f.css.map",
+    "main.7a48f50d.js.map": "/static/js/main.7a48f50d.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74599e60.css",
-    "static/js/main.dd128cec.js"
+    "static/css/main.99dfb84f.css",
+    "static/js/main.7a48f50d.js"
   ]
 }
