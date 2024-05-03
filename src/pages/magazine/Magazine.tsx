@@ -47,7 +47,7 @@ const displayMagazines = arrayMagazines.map((magazine:itemObjects) => {
             <div className="row">
             {
                 magazine.comingSoon && !magazine.soldOut ? 
-                <div className="col-sm-6 col-md-12 col-lg-6  magazine-comingSoon"><p>Kommer snart</p></div>  :
+                <div className="col-sm-6 col-md-12 col-lg-6 magazine-comingSoon"><p>Kommer snart</p></div>  :
                 magazine.soldOut ? <div className="col-lg-6 magazine-soldout"><small>Utsolgt</small></div> :
                 <div className="col-lg-6 magazine-order"><Link to="/kontakt-oss">Bestill</Link></div>
             }
@@ -78,7 +78,7 @@ const displayMagazines = arrayMagazines.map((magazine:itemObjects) => {
                         <p>  KONTAKT 02 og KONTAKT 03 finner du bla.a på KURO, Oslo Velo, Oslo Foto og Prisløs.   
                         </p>
                         <p className="contact-price">Pris 199,-</p>
-                        <small className="contact-shipping">Det blir lagt på 89,- for frakt med Helthjem ved bestilling.</small>
+                        <small className="contact-shipping">Det blir lagt på 80,- for frakt med Helthjem ved bestilling.</small>
                         </div>
                            
                         </div>

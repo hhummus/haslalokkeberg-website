@@ -40,7 +40,7 @@ const arrayMagazines = [
         "subTitle": "Skjulte perler 2.0",
         "soldOut": false,
         "comingSoon": true,
-        "pitch": "Beskrivelse kommer snart",
+        "pitch": "",
         "image": imgContactFour
         }
     ]
