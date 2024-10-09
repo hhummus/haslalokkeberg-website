@@ -28,12 +28,7 @@ function Footer() {
           
         </div>
       </div>
-        <div className="row websiteBy">
-          <div className="col-12"> 
-          <small>
-             Nettside av Helena Løkkeberg
-            </small></div>
-        </div>
+       
       </div>
   );
 }
