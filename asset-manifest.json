@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99dfb84f.css",
-    "main.js": "/static/js/main.d061c590.js",
+    "main.css": "/static/css/main.7ce9b08c.css",
+    "main.js": "/static/js/main.c53f140a.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
@@ -60,6 +60,7 @@
     "static/media/cliff-cabin-9-optimized.jpg": "/static/media/cliff-cabin-9-optimized.0460330e4f3b343aec06.jpg",
     "static/media/cliff-cabin-4-optimized.jpg": "/static/media/cliff-cabin-4-optimized.c16716a3feeea7efb7e1.jpg",
     "static/media/nm-11-optimized.jpg": "/static/media/nm-11-optimized.7a3297901dc752763dc8.jpg",
+    "static/media/tidsskrift-optimized.jpg": "/static/media/tidsskrift-optimized.e43f43e658404071c88e.jpg",
     "static/media/airbnb-1.jpg": "/static/media/airbnb-1.5e858f5c46f8f3a65acd.jpg",
     "static/media/nm-7-optimized.jpg": "/static/media/nm-7-optimized.d381dcf5c14f0a1137a9.jpg",
     "static/media/landing-intro-image-optimized.jpg": "/static/media/landing-intro-image-optimized.3a86600bb683054a85f2.jpg",
@@ -86,6 +87,7 @@
     "static/media/bergill2-optimized.jpg": "/static/media/bergill2-optimized.fec95494b03b997ca1bf.jpg",
     "static/media/kontakt-alle-optimized.jpg": "/static/media/kontakt-alle-optimized.f3089723da9508d44fb2.jpg",
     "static/media/ambijus-6-optimized.jpg": "/static/media/ambijus-6-optimized.510bc5946bd07c32346d.jpg",
+    "static/media/om-oss-optimized.jpg": "/static/media/om-oss-optimized.b5f2b08364602d620792.jpg",
     "static/media/ambijus-3-optimized.jpg": "/static/media/ambijus-3-optimized.b728c3ac3d5c13f87f55.jpg",
     "static/media/wk-4-optimized.jpg": "/static/media/wk-4-optimized.b09cf1618b864d78b18d.jpg",
     "static/media/nm-9-optimized.jpg": "/static/media/nm-9-optimized.2842ae17f19362dc0c4e.jpg",
@@ -99,7 +101,6 @@
     "static/media/social-1-optimized.jpg": "/static/media/social-1-optimized.5835a846cbcb14a9df94.jpg",
     "static/media/wk-1-optimized.jpg": "/static/media/wk-1-optimized.42af6889d60602030b9a.jpg",
     "static/media/vinbaren-optimized.jpg": "/static/media/vinbaren-optimized.2331c034ba32adf266f0.jpg",
-    "static/media/tidsskriftet-kontakt-optimized.jpg": "/static/media/tidsskriftet-kontakt-optimized.30499387487a5b8a56bf.jpg",
     "static/media/cliff-cabin-2-optimized.jpg": "/static/media/cliff-cabin-2-optimized.0a1942986cb93a11a1aa.jpg",
     "static/media/torungen-4-optimized.jpg": "/static/media/torungen-4-optimized.9fac86abc9de601cae47.jpg",
     "static/media/ambijus-4-optimized.jpg": "/static/media/ambijus-4-optimized.1261e10aacb8cced0a1d.jpg",
@@ -139,19 +140,18 @@
     "static/media/kok-8-optimized.jpg": "/static/media/kok-8-optimized.486b9ea26b4d8ac84b5e.jpg",
     "static/media/ambijus-2-optimized.jpg": "/static/media/ambijus-2-optimized.0b43a7f086f7871ca407.jpg",
     "static/media/nm-3-optimized.jpg": "/static/media/nm-3-optimized.b9cbf6f24b37b83ac984.jpg",
-    "static/media/om-oss-intro-image-optimized.jpg": "/static/media/om-oss-intro-image-optimized.1a91e8f39153fcb24d96.jpg",
     "static/media/kok-6-optimized.jpg": "/static/media/kok-6-optimized.d186f031aa82e998f5af.jpg",
     "static/media/nm-10-optimized.jpg": "/static/media/nm-10-optimized.ca806af6c0be6a927d3a.jpg",
     "static/media/tidligere-arbeid-intro-image-optimized.jpg": "/static/media/tidligere-arbeid-intro-image-optimized.e92b9af5cdead47589e6.jpg",
     "static/media/bergill-optimized.jpg": "/static/media/bergill-optimized.6e7e8e8e03d53da7281d.jpg",
     "index.html": "/index.html",
     "static/media/bars-solid-white.svg": "/static/media/bars-solid-white.959bf26f4724192a78c5.svg",
-    "main.99dfb84f.css.map": "/static/css/main.99dfb84f.css.map",
-    "main.d061c590.js.map": "/static/js/main.d061c590.js.map",
+    "main.7ce9b08c.css.map": "/static/css/main.7ce9b08c.css.map",
+    "main.c53f140a.js.map": "/static/js/main.c53f140a.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99dfb84f.css",
-    "static/js/main.d061c590.js"
+    "static/css/main.7ce9b08c.css",
+    "static/js/main.c53f140a.js"
   ]
 }
