@@ -96,9 +96,9 @@ function ContactForm() {
             })}
             className="input-field">
             <option value="firma">Firma</option>
-            <option value="privatpersoner">Privatpersoner</option>
+            <option value="privatpersoner">Privat</option>
             <option value="wedding">Bryllupsfotografering</option>
-            <option value="other">Samarbeid Airbnb</option>
+            <option value="other">Boligfotografering</option>
             <option value="other">Bestilling av tidsskriftet KONTAKT</option>
             <option value="other">Annet</option>
           </select>

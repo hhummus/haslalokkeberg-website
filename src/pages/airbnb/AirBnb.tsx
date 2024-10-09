@@ -32,7 +32,7 @@ function Ambijus() {
         <Navbarr />
         <div className="container portfolioIndividualContainer">
             <div className="airbnb-container">
-            <h1 className="airbnb-title">Samarbeid Airbnb</h1>
+            <h1 className="airbnb-title">Boligfotografering</h1>
             <p className="airbnb-p">Skal du leie ut leiligheten, hytta eller ferieboligen din på airbnb eller lignende markedsplasser? <span className="span-block">Da kan det fort lønne seg å ha fine, stemningsfylte bilder. </span>Vi tar dem gjerne!  
             </p>
             </div>

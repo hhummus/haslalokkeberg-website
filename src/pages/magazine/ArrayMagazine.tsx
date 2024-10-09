@@ -1,7 +1,7 @@
 import kontaktOneImage from "../../img/magazine/kontakt01-optimized.jpg";
 import kontaktTwoImage from "../../img/magazine/kontakt02-optimized.jpg";
 import kontaktThreeImage from "../../img/magazine/kontakt03-optimized.jpg";
-import kontaktFourImage from "../../img/magazine/kontakt04.png";
+import kontaktFourImage from "../../img/magazine/kontakt04-optimized.jpg";
 
 const imgContactOne = kontaktOneImage;
 const imgContactTwo = kontaktTwoImage;
@@ -39,8 +39,8 @@ const arrayMagazines = [
         "title": "Kontakt 04",
         "subTitle": "Skjulte perler 2.0",
         "soldOut": false,
-        "comingSoon": true,
-        "pitch": "",
+        "comingSoon": false,
+        "pitch": "Som alltid ønsker vi å løfte opp de små, de som ikke følger strømmen og de som gjør en ekstra innsats for at Oslo skal romme alt og alle. Vi har også prøvd oss på et helt nytt konsept 'Mitt Oslo'. Ta en titt da, vel!",
         "image": imgContactFour
         }
     ]

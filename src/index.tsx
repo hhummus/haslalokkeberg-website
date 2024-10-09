@@ -42,7 +42,7 @@ const router = createBrowserRouter(
     <Route path="tidligere-arbeid/sovesveis" element={ <Sovesveis />}></Route>
     <Route path="tidligere-arbeid/bryllup" element={ <Wedding />}></Route>
     <Route path="/tidsskrift-kontakt" element={<Magazine />}></Route>
-    <Route path="/samarbeid-airBnb" element={<AirBnb />}></Route>
+    <Route path="/boligfotografering" element={<AirBnb />}></Route>
   </Route>
   ))
 
