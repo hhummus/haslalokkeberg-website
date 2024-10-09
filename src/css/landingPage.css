@@ -35,7 +35,7 @@
     text-decoration: none;
 }
 .aboutUsLink {
-    background-image: url("../img/om-oss-intro-image-optimized.jpg");
+    background-image: url("../img/om-oss-optimized.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -65,7 +65,7 @@
     margin: 1rem;
 }
 .magazineLink {
-    background-image: url("../img//tidsskriftet-kontakt-optimized.jpg");
+    background-image: url("../img//tidsskrift-optimized.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -84,7 +84,7 @@
     align-items: center;
     margin: 1rem;
 }
-.airBnbLink {
+.housePhotography {
     background-image: url("../img/airBnb/airbnb-38.jpg");
     background-size: cover;
     background-position: center;

@@ -26,9 +26,9 @@ export const homepageNavigation =
     },
     {
         "id": 5,
-        "title": "samarbeid Airbnb",
-        "class": "airBnbLink",
-        "link": "samarbeid-airBnb"
+        "title": "boligfotografering",
+        "class": "housePhotography",
+        "link": "boligfotografering"
     },
     {
         "id": 6,
