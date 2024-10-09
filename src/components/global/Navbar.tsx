@@ -50,8 +50,8 @@ function Navbarr() {
           <Link to="/tidligere-arbeid" className="nav-dropdown">
               Tidligere arbeid
             </Link>
-            <Link to="/samarbeid-airbnb" className="nav-dropdown">
-              Samarbeid Airbnb
+            <Link to="/boligfotografering" className="nav-dropdown">
+              Boligfotografering
             </Link>
             <Link to="/prislister" className="nav-dropdown">
               Prislister
