@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.99dfb84f.css",
-    "main.js": "/static/js/main.48a7de1b.js",
+    "main.js": "/static/js/main.d061c590.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
-    "static/media/kontakt04.png": "/static/media/kontakt04.444096d30390d3e93b7c.png",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
     "static/media/sovesveis-7-optimized.jpg": "/static/media/sovesveis-7-optimized.9ff4ab38d9a4b0b86da9.jpg",
@@ -105,6 +104,7 @@
     "static/media/torungen-4-optimized.jpg": "/static/media/torungen-4-optimized.9fac86abc9de601cae47.jpg",
     "static/media/ambijus-4-optimized.jpg": "/static/media/ambijus-4-optimized.1261e10aacb8cced0a1d.jpg",
     "static/media/vinbaren-3-optimized.jpg": "/static/media/vinbaren-3-optimized.eb27ba6e49c4e89b5670.jpg",
+    "static/media/kontakt04-optimized.jpg": "/static/media/kontakt04-optimized.df9073416ad9e5580cee.jpg",
     "static/media/cliff-cabin-3-optimized.jpg": "/static/media/cliff-cabin-3-optimized.979396e7e33343ad9183.jpg",
     "static/media/prislister-optimized.jpg": "/static/media/prislister-optimized.87a2d44c5b80d9943415.jpg",
     "static/media/torungen-2-optimized.jpg": "/static/media/torungen-2-optimized.6b1b3d5d82a15fefbd7c.jpg",
@@ -147,11 +147,11 @@
     "index.html": "/index.html",
     "static/media/bars-solid-white.svg": "/static/media/bars-solid-white.959bf26f4724192a78c5.svg",
     "main.99dfb84f.css.map": "/static/css/main.99dfb84f.css.map",
-    "main.48a7de1b.js.map": "/static/js/main.48a7de1b.js.map",
+    "main.d061c590.js.map": "/static/js/main.d061c590.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99dfb84f.css",
-    "static/js/main.48a7de1b.js"
+    "static/js/main.d061c590.js"
   ]
 }
