@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ce9b08c.css",
-    "main.js": "/static/js/main.c53f140a.js",
+    "main.css": "/static/css/main.4cab03a5.css",
+    "main.js": "/static/js/main.e714abc2.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
@@ -145,13 +145,12 @@
     "static/media/tidligere-arbeid-intro-image-optimized.jpg": "/static/media/tidligere-arbeid-intro-image-optimized.e92b9af5cdead47589e6.jpg",
     "static/media/bergill-optimized.jpg": "/static/media/bergill-optimized.6e7e8e8e03d53da7281d.jpg",
     "index.html": "/index.html",
-    "static/media/bars-solid-white.svg": "/static/media/bars-solid-white.959bf26f4724192a78c5.svg",
-    "main.7ce9b08c.css.map": "/static/css/main.7ce9b08c.css.map",
-    "main.c53f140a.js.map": "/static/js/main.c53f140a.js.map",
+    "main.4cab03a5.css.map": "/static/css/main.4cab03a5.css.map",
+    "main.e714abc2.js.map": "/static/js/main.e714abc2.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ce9b08c.css",
-    "static/js/main.c53f140a.js"
+    "static/css/main.4cab03a5.css",
+    "static/js/main.e714abc2.js"
   ]
 }
