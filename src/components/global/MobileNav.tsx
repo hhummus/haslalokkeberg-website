@@ -31,7 +31,7 @@ const NavMobile = () => {
                 <button onClick={() => setIsOpen(!isOpen)} className=""><Hamburger/></button>
             </div>
             {isOpen && 
-            <div className="row dropDownNav slideIn">
+            <div className="row dropDownNav">
                 <div className="navDropdownDivider"></div>
                     <div className="col globalNav mobileNav">
                         {navRoutes.map((link:itemObjects) => {
