@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useEffect } from 'react';
 import cliffCabinImagesArray from './Images';
-import Navbarr from '../../../components/global/Navbar'
+import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
 import GoBack from '../../../components/global/GoBack';
@@ -30,7 +30,7 @@ function Ambijus() {
       });
   return (
     <div>
-      <Navbarr />
+      <Navbar />
       <HeaderComponent 
        pricesImage="portfolioHeaderImage"
        titlePricesHeader="Tidligere arbeid"

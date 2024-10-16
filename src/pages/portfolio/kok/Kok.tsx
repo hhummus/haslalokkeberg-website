@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import "../../../css/portfolioPages.css"
 import kokImagesArray from './Images';
-import Navbarr from '../../../components/global/Navbar';
+import Navbar from '../../../components/global/Navbar';
 import HeaderComponent from '../../products/HeaderComp';
 import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
@@ -31,7 +31,7 @@ function Kok() {
 
   return (
     <div>
-        <Navbarr />
+        <Navbar />
         <HeaderComponent 
        pricesImage="portfolioHeaderImage"
        titlePricesHeader="Tidligere arbeid"

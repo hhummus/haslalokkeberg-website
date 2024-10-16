@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { useEffect } from 'react';
 import "../../css/portfolio.css";
-import Navbarr from "../../components/global/Navbar";
+import Navbar from "../../components/global/Navbar";
 import HeaderComponent from '../products/HeaderComp'
 import Footer from '../../components/global/Footer';
 import PortfolioNavigation from './PortfolioNavigation';
@@ -15,7 +15,7 @@ function Portfolio() {
 
   return (
     <div>
-        <Navbarr />
+        <Navbar />
         <HeaderComponent 
        pricesImage="portfolioHeaderImage"
        titlePricesHeader="Tidligere arbeid"

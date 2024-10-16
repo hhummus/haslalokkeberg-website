@@ -2,7 +2,7 @@ import * as React from "react";
 import { useEffect } from "react";
 import "../../css/aboutPage.css";
 import Footer from "../../components/global/Footer";
-import Navbarr from "../../components/global/Navbar";
+import Navbar from "../../components/global/Navbar";
 import AboutUs from "./AboutUs";
 import SocialMediaLinks from "./SocialMediaAbout";
 import ArticleTwo from "./ArticleTwo";
@@ -16,7 +16,7 @@ function AboutPage() {
 
   return (
     <div>
-      <Navbarr />
+      <Navbar />
       <div className="aboutPage">
         <AboutUs />
         <ArticleTwo />

@@ -18,33 +18,18 @@ const NavDesktop = () => {
         <div className="col-3">
         <Link to="/" className="brandIcon">Hasla-Løkkenerg Agentur </Link>
         </div>
-        
-      
-        
-          <div className="col-9 globalNav desktopNav">
+        <div className="col-9 globalNav desktopNav">
           {navRoutes.map((link:itemObjects) => {
             const links = "/" + link.link;
             return (
-            
-                  <Link to={links} key={link.id}>
-                    {link.title}
-                  </Link>
-                        );
-                    })}     
-          </div>
-        
-   
+              <Link to={links} key={link.id}>
+                {link.title}
+              </Link>
+            );
+          })}     
         </div>
-          )  
-
-
-
-
-
-
-
-
-               
+      </div>
+    )               
 };
 
-  export default NavDesktop
+export default NavDesktop

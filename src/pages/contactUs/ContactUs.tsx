@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useEffect } from "react";
-import Navbarr from "../../components/global/Navbar";
+import Navbar from "../../components/global/Navbar";
 import ContactForm from "./ContactForm";
 import Footer from "../../components/global/Footer";
 import HeaderComponent from "../products/HeaderComp";
@@ -17,7 +17,7 @@ function ContactUs() {
 
   return (
     <>
-      <Navbarr />
+      <Navbar />
       <HeaderComponent 
        pricesImage="contactHeaderImage"
        titlePricesHeader="Kontakt oss"

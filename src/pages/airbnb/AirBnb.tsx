@@ -3,7 +3,7 @@ import "../../css/airbnb.css";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AirBnbImagesArray from './Images';
-import Navbarr from '../../components/global/Navbar'
+import Navbar from '../../components/global/Navbar'
 import Footer from '../../components/global/Footer';
 import scrollToTop from '../../components/global/scrollToTop';
 import GoTop from '../../components/global/GoTop';
@@ -29,7 +29,7 @@ function Ambijus() {
 
   return (
     <div>
-        <Navbarr />
+        <Navbar />
         <div className="container portfolioIndividualContainer">
             <div className="airbnb-container">
             <h1 className="airbnb-title">Boligfotografering</h1>
