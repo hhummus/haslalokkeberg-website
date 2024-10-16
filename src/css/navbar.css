@@ -1,66 +1,87 @@
 .navbar {
     background-color: #fff;
-    padding: 1rem;
+    padding: 0.8rem 1rem;
     position: fixed;
     width: 100vw;
     z-index: 1;
     top: 0;
+}
+.navbar .row {
+    width: 100vw;
+    align-items: center;
 }
 .navbar.active{
     opacity: 0;
     transition: 0.4s ease-in-out;
 }
 
-.navbar-logo, .nav-dropdown{
+.brandIcon, .globalNav a {
+    color: #262626ea;
+    cursor: pointer;
     list-style: none;
     text-decoration: none;
-    color:#262626ea;
-    cursor: pointer;
+    margin-bottom: 0;
 }
-
-.navbar-logo {
+.brandIcon {
     font-size: 18px;
 }
 
-.navbar-toggler {
-    border: none;
-}
-.navbar-toggler:focus{
-    box-shadow: none;
-}
-
-.navbar-toggler-icon {
-    background-image: url(../img//icons/bars-solid-white.svg);
-}
-
-.nav-dropdown {
+.mobileNav a {
     padding-top: 1rem;
-}
-.nav-dropdown:hover {
-    color: #000;
-
-
-}
-.nav-dropdown-divider {
-    border: 0.01px solid #e5e7e621;
-}
-.responsive-navbar-nav {
-    padding: 0;
+    display: block;
+    font-size: 16px;
 }
 
+.burgerMenu {
+    text-align: end;
+}
+.burgerMenu button {
+    background: none;
+    border: none;
+    color: #262626ea;
+}
 
-/* ------------------ when screen is bigger than 992 -------------------*/
-@media only screen and (min-width: 772px) { 
-    .navbar-nav {
+.desktopNav{
+    display: inline;
+    text-align: end;
+}
+.desktopNav a{
+    margin-right: 1rem;
+}
+.navDropdownDivider {
+    border-top: 1px solid black;
+    opacity: 2%;
+    margin-bottom: 0.4rem;
+   
+}
+
+@keyframes slideIn {
+    0% {
+        transform: scaleY(1rem);
+        opacity: 0;
+    }
+    100% {
+        transform: scaleY(0rem);
+        opacity: 1;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-fill-mode:forwards;
+}
+
+@media only screen and (min-width: 771px) {
+    .globalNav a {
+        margin-right: 1rem;
         display: inline;
     }
-    .nav-dropdown {
-        margin-right: 1rem;
+    .navbar {
+        padding: 1rem;
     }
-    .nav-dropdown-divider {
+    .navDropdownDivider {
         margin-bottom: 1rem;
-    }
-    #responsive-navbar-nav {
-        flex-direction: row-reverse;
     }
 }
