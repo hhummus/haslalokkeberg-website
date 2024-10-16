@@ -1,75 +1,65 @@
 import * as React from "react";
 import "../../css/navbar.css";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
+import { useState, useEffect, useRef} from "react";
+import NavMobile from "./MobileNav";
+import NavDesktop from "./DesktopNav";
 
-function Navbarr() {
+function Navbar() {
+  // determine if user scrolls down/up
   const [navbar, setNavbar] = useState(false);
-
-  let prevScrollPos = window.scrollY;
+   // determine window size for navmenu
+  const [windowSizeNav, setWindowSizeNav] = useState(false)
+  // find & store width value
+  const previousWidthValue = useRef(window.innerWidth);
+  // find & store scroll position
+  const prevScrollHeight = useRef(window.scrollY)
+  //top page
   const topPage = 30;
+    
+ useEffect(() => {
+  const handleResizeNav = () => {
+    // current width
+    const currentWidth = window.innerWidth;
 
-  const navbarOnScroll = () => {
-   // current scroll position
-  const currentScrollPos = window.scrollY;
+    currentWidth > 999 ? setWindowSizeNav(true) : setWindowSizeNav(false)
 
-  if (prevScrollPos > currentScrollPos) {
-    // user has scrolled up
-    setNavbar(false);
-  } else {
-      // user has scrolled down
-    setNavbar(true)
-  }
-  
-  if(prevScrollPos <= topPage) {
-    // user is on top of page
-   setNavbar(false)
-  } 
- 
-  // update previous scroll position
-  prevScrollPos = currentScrollPos;
+    if(currentWidth <= 999) {
+      setWindowSizeNav(false) 
+    }
+
+    // update window width size
+    previousWidthValue.current = currentWidth;
   };
+    window.addEventListener("resize", handleResizeNav)
+    return () => {
+    window.removeEventListener("resize", handleResizeNav)
+    };
+ },[]);
 
-  window.addEventListener("scroll", navbarOnScroll);
 
+  useEffect(() => {
+    const navbarOnScroll = () => {
+      // current scroll position
+      const currentScrollPos = window.scrollY;
+      
+      prevScrollHeight.current > currentScrollPos ? setNavbar(false) : setNavbar(true)
+
+      if(prevScrollHeight.current <= topPage) {
+        setNavbar(false) 
+      }  
+      // update previous scroll position
+      prevScrollHeight.current = currentScrollPos;
+    };
+      window.addEventListener("scroll", navbarOnScroll); 
+      return () => {
+      window.removeEventListener("scroll", navbarOnScroll)
+      };
+  },[])
+ 
   return (
-    <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        className={navbar ? "navbar active" : "navbar"}
-      >
-        <Link to="/" className="navbar-logo">
-          Hasla-Løkkeberg Agentur
-        </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse role="" id="responsive-navbar-nav">
-          <div className="nav-dropdown-divider"></div>
-          <Nav className="mr-auto">
-          <Link to="/tidligere-arbeid" className="nav-dropdown">
-              Tidligere arbeid
-            </Link>
-            <Link to="/boligfotografering" className="nav-dropdown">
-              Boligfotografering
-            </Link>
-            <Link to="/prislister" className="nav-dropdown">
-              Prislister
-            </Link>
-            <Link to="/tidsskrift-kontakt" className="nav-dropdown">
-              Tidsskriftet KONTAKT
-            </Link>
-            <Link to="/om-oss" className="nav-dropdown">
-              Om oss
-            </Link>
-            <Link to="/kontakt-oss" className="nav-dropdown">
-              Kontakt oss
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </>
+    <div className={navbar? "navbar active" : "navbar"}>
+      {windowSizeNav ? <NavDesktop/> : <NavMobile/>}
+    </div>
   );
 }
-
-export default Navbarr;
+export default Navbar;
