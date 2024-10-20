@@ -3,40 +3,45 @@
     padding: 2rem 0;
     font-weight: 400;
     font-size: 14px;
+}
+.divider {
+    border-top: 1px solid black;
+    opacity: 2%;
+    margin-bottom: 4rem;
+}
+.contact {
+    margin-top: 1rem;
+}
+.instagram div, .contact div {
+    display: inline;
+}
+.instagram a, .contact a{
+color:#262626ea;
+text-decoration: none;
+border-left: 1px solid #262626ea;
+padding-left: 0.7rem;
+margin-left: 0.7rem;
+}
+
+.instagram a:hover, .contact a:hover {
+    transition: 0.1s ease-in-out;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #2626268d;
+
+}
+
+.instagram a:active, .contact a:active {
+    color: blue;
+}
+
+.containerAllRights {
     text-align: center;
 }
-
-.globalFooter .col-12 {
-    padding-top: 0.3rem;
-}
-
-.globalFooter .contactUs {
-    text-decoration: none;
-}
-
-
-.websiteBy {
-    margin-top: 4rem;
+.allRights {
+    margin-top: 5rem;
+    font-size: 12px;
+    color: grey;
 }
 /* --------- SoMe icon -------*/
-.globalFooter .soMe a{
-    padding: 0 1rem 0 1rem;
-    color: black;
-    cursor: pointer;
-}
-
-.svg-inline--fa {
-    height: 20px;
-}
 
 
-
-@media only screen and (min-width: 992px) {
-    .globalFooterCopyright,
-    .globalFooter .soMe {
- 
-        margin: 0 auto;
-    }
-
-
-}
