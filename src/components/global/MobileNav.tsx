@@ -25,7 +25,7 @@ const NavMobile = () => {
     return (
         <div className="row">
             <div className="col-8">
-                <Link to="/" className="brandIcon">Hasla-Løkkenerg Agentur</Link>
+                <Link to="/" className="brandIcon">Hasla-Løkkeberg Agentur</Link>
             </div>
             <div className="col-4 burgerMenu"> 
                 <button onClick={() => setIsOpen(!isOpen)} className=""><Hamburger/></button>

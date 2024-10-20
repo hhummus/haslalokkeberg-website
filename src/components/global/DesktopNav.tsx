@@ -16,7 +16,7 @@ const NavDesktop = () => {
     return (
         <div className="row">
         <div className="col-3">
-        <Link to="/" className="brandIcon">Hasla-Løkkenerg Agentur </Link>
+        <Link to="/" className="brandIcon">Hasla-Løkkeberg Agentur </Link>
         </div>
         <div className="col-9 globalNav desktopNav">
           {navRoutes.map((link:itemObjects) => {
