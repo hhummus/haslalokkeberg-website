@@ -8,7 +8,6 @@ const imgContactTwo = kontaktTwoImage;
 const imgContactThree = kontaktThreeImage;
 const imgContactFour = kontaktFourImage;
 
-
 const arrayMagazines = [
        {
         "id": 1,
@@ -44,6 +43,5 @@ const arrayMagazines = [
         "image": imgContactFour
         }
     ]
-
 
     export default arrayMagazines

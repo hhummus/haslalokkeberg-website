@@ -4,11 +4,8 @@ import wilderImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
-
 
 function WilderKitchen() {
 
@@ -41,9 +38,7 @@ function WilderKitchen() {
       introText="Kokk, fotograf og kunster Rebecca Hawkes startet opp det idealistiske konseptet Wilder Kitchen i 2021. Med fokus på sesongbaserte råvarer og det hun finner i naturen lager hun hver fjerde søndag spennende, veganske måltider på Losæter i Oslo. Hver enkelt betaler selv det man føler man har råd til og alle er velkommne. På denne måten får hun samlet mennesker fra alle lag til et felles måltid. Snakk om fantastisk dame!"
      introLinkText="Besøk Wilder Kitchen av Rebecca Hawkes sin nettside her"  introLink="https://www.hawkes.work/about"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{wkPhotos}</div>
-      <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
     

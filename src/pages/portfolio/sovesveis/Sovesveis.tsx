@@ -4,10 +4,8 @@ import sovesveisImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
 
 
 function Ambijus() {
@@ -43,13 +41,10 @@ function Ambijus() {
       Kjærligheten for natur og bærekraft resulterte i merket Sovesveis.  "
      introLinkText="Se Sovesveis av Ola G Snippen sin nettbutikk her"  introLink="https://www.znippen.no/om-sovesveis"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{sovesveisPhotos}</div>
-      <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
-    
-  )
-}
+  );
+};
 
 export default Ambijus;

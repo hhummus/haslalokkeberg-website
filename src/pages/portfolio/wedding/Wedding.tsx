@@ -4,10 +4,8 @@ import weddingImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
 import WeddingText from './WeddingText';
 
 function Wedding() {
@@ -44,9 +42,7 @@ function Wedding() {
         <div className="portfolioPhotos row" id="portfolioPhotosWrap">
           {weddingPhotos}
         </div>
-        <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
     

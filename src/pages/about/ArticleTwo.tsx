@@ -2,8 +2,6 @@ import * as React from "react";
 import { socialMediaPhotos } from "./socialImages";
 
 function ArticleTwo() {
-
-
   // displaying each of the 9 images
   const socialPhotos = socialMediaPhotos.map((image: string) => {
     return (

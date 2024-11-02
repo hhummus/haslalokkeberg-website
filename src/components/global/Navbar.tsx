@@ -22,7 +22,6 @@ function Navbar() {
     window.innerWidth > 999 ? setWindowSizeNav(true) : setWindowSizeNav (false)
   }
     checkWindowWidth();
-    console.log(window.innerWidth)
   }, []);
 
   // handle on active window width resizing

@@ -4,14 +4,11 @@ import bergillImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
 
 
 function Ambijus() {
-  
   useEffect(() => {
     scrollToTop()
    }, []);
@@ -44,12 +41,9 @@ function Ambijus() {
         <div className="portfolioPhotos row" id="portfolioPhotosWrap" >
           {bergillPhotos}
         </div>
-        <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
-    
   )
 }
 

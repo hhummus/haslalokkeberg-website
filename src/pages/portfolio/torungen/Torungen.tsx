@@ -4,11 +4,8 @@ import torungenImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
-
 
 function NewMovements() {
 
@@ -41,9 +38,7 @@ function NewMovements() {
       introText="Torungen Design ble stiftet av Kaja Baust i 1995. Med sitt tidløse design, inspirasjon fra Sørlandets skjærgård og garn fra Rauma er hun stadig like populær hos både Husfliden og kunder fra hele Norden."
      introLinkText="Se Torungen design sin nettside her" introLink="https://www.torungendesign.no/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{torungenPhotos}</div>
-      <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
     

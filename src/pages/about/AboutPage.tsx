@@ -9,7 +9,6 @@ import ArticleTwo from "./ArticleTwo";
 import scrollToTop from "../../components/global/scrollToTop";
 
 function AboutPage() {
-
   useEffect(() => {
     scrollToTop()
    }, []);
@@ -25,6 +24,5 @@ function AboutPage() {
       <Footer />
     </div>
   );
-}
-
+};
 export default AboutPage;

@@ -4,18 +4,15 @@ import cliffCabinImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
 import GoTop from '../../../components/global/GoTop';
 
 
 function Ambijus() {
-  
   useEffect(() => {
     scrollToTop()
    }, []);
-
 
     const cliffCabinPhotos = cliffCabinImagesArray.map((image: string) => {
         return (
@@ -45,9 +42,7 @@ function Ambijus() {
         <div className="portfolioPhotos row" id="portfolioPhotosWrap" >
           {cliffCabinPhotos}
         </div>
-        <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
     

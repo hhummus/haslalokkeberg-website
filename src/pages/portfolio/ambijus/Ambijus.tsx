@@ -4,14 +4,10 @@ import ambijusImagesArray from './Images';
 import Navbar from '../../../components/global/Navbar'
 import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
-import GoBack from '../../../components/global/GoBack';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
-
 
 function Ambijus() {
-
  useEffect(() => {
   scrollToTop()
  }, []);
@@ -43,9 +39,7 @@ function Ambijus() {
       Resultatet ble Ambijus."
      introLinkText="Besøk Ambijus sin nettbutikk her" introLink="https://www.ambijus.com/"/>
       <div className="portfolioPhotos row" id="portfolioPhotosWrap" >{ambijusPhotos}</div>
-      <GoTop />
       </div>
-      <GoBack />
       <Footer />
     </div>
     
