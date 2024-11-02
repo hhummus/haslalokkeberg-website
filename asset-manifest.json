@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35ca691b.css",
-    "main.js": "/static/js/main.cb2811b8.js",
+    "main.css": "/static/css/main.156f4d54.css",
+    "main.js": "/static/js/main.020bd32a.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
@@ -145,12 +145,12 @@
     "static/media/tidligere-arbeid-intro-image-optimized.jpg": "/static/media/tidligere-arbeid-intro-image-optimized.e92b9af5cdead47589e6.jpg",
     "static/media/bergill-optimized.jpg": "/static/media/bergill-optimized.6e7e8e8e03d53da7281d.jpg",
     "index.html": "/index.html",
-    "main.35ca691b.css.map": "/static/css/main.35ca691b.css.map",
-    "main.cb2811b8.js.map": "/static/js/main.cb2811b8.js.map",
+    "main.156f4d54.css.map": "/static/css/main.156f4d54.css.map",
+    "main.020bd32a.js.map": "/static/js/main.020bd32a.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ca691b.css",
-    "static/js/main.cb2811b8.js"
+    "static/css/main.156f4d54.css",
+    "static/js/main.020bd32a.js"
   ]
 }
