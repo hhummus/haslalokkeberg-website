@@ -15,18 +15,26 @@ function Navbar() {
   const prevScrollHeight = useRef(window.scrollY)
   //top page
   const topPage = 30;
-    
- useEffect(() => {
+
+  // check window width first page load
+  useEffect(() => {
+  const checkWindowWidth = () => {
+    window.innerWidth > 999 ? setWindowSizeNav(true) : setWindowSizeNav (false)
+  }
+    checkWindowWidth();
+    console.log(window.innerWidth)
+  }, []);
+
+  // handle on active window width resizing
+  useEffect(() => {
   const handleResizeNav = () => {
     // current width
     const currentWidth = window.innerWidth;
-
     currentWidth > 999 ? setWindowSizeNav(true) : setWindowSizeNav(false)
 
     if(currentWidth <= 999) {
       setWindowSizeNav(false) 
     }
-
     // update window width size
     previousWidthValue.current = currentWidth;
   };
@@ -34,14 +42,13 @@ function Navbar() {
     return () => {
     window.removeEventListener("resize", handleResizeNav)
     };
- },[]);
+  },[]);
 
-
+  // check active scroll position
   useEffect(() => {
     const navbarOnScroll = () => {
       // current scroll position
       const currentScrollPos = window.scrollY;
-      
       prevScrollHeight.current > currentScrollPos ? setNavbar(false) : setNavbar(true)
 
       if(prevScrollHeight.current <= topPage) {

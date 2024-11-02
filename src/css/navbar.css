@@ -31,9 +31,12 @@
     display: block;
     font-size: 16px;
 }
-
+.mobileNav {
+    padding-bottom: 1rem;
+}
 .burgerMenu {
     text-align: end;
+    position: relative;
 }
 .burgerMenu button {
     background: none;
@@ -52,9 +55,26 @@
     border-top: 1px solid black;
     opacity: 2%;
     margin-bottom: 0.4rem;
-   
 }
 
+.dropDownNav {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    margin: 0;
+    max-height: 0;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: max-height 0.3s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease-in;
+}
+
+.dropDownNav.open {
+    max-height: 300px;
+    transform: translateY(0);
+    opacity: 1;
+}
 @media only screen and (min-width: 771px) {
     .globalNav a {
         margin-right: 1rem;

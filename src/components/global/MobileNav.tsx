@@ -10,17 +10,16 @@ const NavMobile = () => {
     // determine if nav is open / close
     const [isOpen, setIsOpen] = useState(false)
 
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     // setting types to be expected 
     interface itemObjects {
         title: string,
         id: number,
-        link: string}
-
-    const navBurgerOnClick = () => {
-        isOpen ? setIsOpen(true)  : setIsOpen(false)
-    };
-        
-    window.addEventListener("click", navBurgerOnClick)
+        link: string
+    }
 
     return (
         <div className="row">
@@ -28,10 +27,10 @@ const NavMobile = () => {
                 <Link to="/" className="brandIcon">Hasla-Løkkeberg Agentur</Link>
             </div>
             <div className="col-4 burgerMenu"> 
-                <button onClick={() => setIsOpen(!isOpen)} className=""><Hamburger/></button>
+                <button onClick={toggleMenu} className=""><Hamburger/></button>
             </div>
             {isOpen && 
-            <div className="row dropDownNav">
+            <div className= {`row dropDownNav ${isOpen ? 'open' : ''}`} >
                 <div className="navDropdownDivider"></div>
                     <div className="col globalNav mobileNav">
                         {navRoutes.map((link:itemObjects) => {

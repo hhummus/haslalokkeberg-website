@@ -42,6 +42,14 @@ margin-left: 0.7rem;
     font-size: 12px;
     color: grey;
 }
-/* --------- SoMe icon -------*/
+
+.allRights a {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.allRights a:hover {
+    text-decoration: 1px grey underline;
+}
 
 
