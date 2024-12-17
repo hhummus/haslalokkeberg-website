@@ -19,7 +19,7 @@ import WilderKitchen from "./pages/portfolio/wilder-kitchen/WilderKitchen";
 import Bergill from "./pages/portfolio/bergill/Bergill";
 import Sovesveis from "./pages/portfolio/sovesveis/Sovesveis";
 import AirBnb from "./pages/airbnb/AirBnb";
-import Wedding from "./pages/portfolio/wedding/Wedding";
+import Wedding from "./pages/wedding/Wedding";
 
 
 const router = createBrowserRouter( 
@@ -30,6 +30,7 @@ const router = createBrowserRouter(
     <Route path="om-oss" element={ <AboutPage />}></Route>
     <Route path="kontakt-oss" element={ <ContactUs />}></Route>
     <Route path="/prislister" element={ <Prices />}></Route>
+    <Route path="/bryllup" element={ <Wedding />}></Route>
     <Route path="tidligere-arbeid" element={ <Portfolio />}></Route>
     <Route path="tidligere-arbeid/kok" element={ <Kok />}></Route>
     <Route path="tidligere-arbeid/new-movements" element={ <NewMovements />}></Route>
@@ -40,7 +41,6 @@ const router = createBrowserRouter(
     <Route path="tidligere-arbeid/wilder-kitchen" element={ <WilderKitchen/>}></Route>
     <Route path="tidligere-arbeid/bergill" element={ <Bergill />}></Route>
     <Route path="tidligere-arbeid/sovesveis" element={ <Sovesveis />}></Route>
-    <Route path="tidligere-arbeid/bryllup" element={ <Wedding />}></Route>
     <Route path="/tidsskrift-kontakt" element={<Magazine />}></Route>
     <Route path="/boligfotografering" element={<AirBnb />}></Route>
   </Route>

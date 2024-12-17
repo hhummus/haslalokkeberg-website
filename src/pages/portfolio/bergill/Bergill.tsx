@@ -7,7 +7,6 @@ import AboutIntroText from '../AboutIntroText';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
 
-
 function Ambijus() {
   useEffect(() => {
     scrollToTop()

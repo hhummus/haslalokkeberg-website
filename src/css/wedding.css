@@ -1,0 +1,54 @@
+.weddingContainer {
+    margin-top: 2rem;
+}
+.weddingContainer .row{
+    padding-top: 4rem;
+}
+.weddingContainer .col {
+    margin: 0 auto;
+}
+
+#readMoreWedding {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.contactUsWedding a {
+    cursor: pointer;
+    color: #013165a2;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.pricesWedding a {
+    cursor: pointer;
+    color: #013165a2;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+.wedding-image-container {
+    padding: 0.3rem 0.3rem;
+}
+
+#weddingPhotosWrap {
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.weddingImageWidth {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 667px) {
+
+    .weddingContainer .row {
+        padding-top: 6rem;
+    }
+}

@@ -65,7 +65,7 @@
     margin: 1rem;
 }
 .magazineLink {
-    background-image: url("../img//tidsskrift-optimized.jpg");
+    background-image: url("../img/tidsskrift-optimized.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -94,9 +94,18 @@
     align-items: center;
     margin: 1rem;
 }
+.weddingLink{
+    background-image: url("../img/bryllup-4-optimized-kopi.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
 
 @media only screen and (min-width: 992px) {
-
     .landingPageContainer {
         width: 75vw;
         margin: 0 auto;

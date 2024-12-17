@@ -105,13 +105,3 @@
     justify-content: space-around;
     align-items: center;
 }
-
-.wedding{
-    background-image: url(../img/priser/bryllup/sjomann/bryllup-4-optimized.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}

@@ -6,8 +6,6 @@ import HeaderComponent from '../../products/HeaderComp';
 import AboutIntroText from '../AboutIntroText';
 import Footer from '../../../components/global/Footer';
 import scrollToTop from '../../../components/global/scrollToTop';
-import GoTop from '../../../components/global/GoTop';
-
 
 function Ambijus() {
   useEffect(() => {

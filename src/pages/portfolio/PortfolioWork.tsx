@@ -1,66 +1,61 @@
 export const imagesForPortfolio = 
-[{
-       "id": 1,
-       "title": "Bryllup",
-       "class": "wedding",
-       "link": "bryllup"
-    },
+[
     {
-        "id": 2,
+        "id": 1,
         "title": "KOK",
         "class": "kok",
         "link": "kok"
     },
     
     {
-        "id": 3,
+        "id": 2,
         "title": "New Movements",
         "class": "newMovements",
         "link": "new-movements"
 
     },
     {
-        "id": 4,
+        "id": 3,
         "title": "Ambijus",
         "class": "ambijus",
         "link": "ambijus"
 
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Wilder Kitchen",
         "class": "wilderKitchen",
         "link": "wilder-kitchen"
 
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Vinbaren på Mølla",
         "class": "winebarMolla",
         "link": "vinbaren-pa-molla"
 
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Cliff Cabin",
         "class": "cliffCabin",
         "link": "cliff-cabin"
 
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Torungen design",
         "class": "torungenDesign",
         "link": "torungen-design"
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "Bergill",
         "class": "bergill",
         "link": "bergill"
     },
     {
-        "id": 10,
+        "id": 9,
         "title": "Sovesveis",
         "class": "sovesveis",
         "link": "sovesveis"
