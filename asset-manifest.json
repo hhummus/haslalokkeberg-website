@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac0b1835.css",
-    "main.js": "/static/js/main.240c0de8.js",
+    "main.css": "/static/css/main.89c06f4c.css",
+    "main.js": "/static/js/main.58e380dd.js",
     "static/js/787.ddf1fbd0.chunk.js": "/static/js/787.ddf1fbd0.chunk.js",
     "static/media/airbnb-26.jpg": "/static/media/airbnb-26.ebafdedd5d199fcf0e97.jpg",
     "static/media/airbnb-2.jpg": "/static/media/airbnb-2.b040c5fdbeaad4729e18.jpg",
@@ -72,6 +72,7 @@
     "static/media/nm-optimized.jpg": "/static/media/nm-optimized.be78367c98c6cf9ea117.jpg",
     "static/media/sovesveis-4-optimized.jpg": "/static/media/sovesveis-4-optimized.5c4041e2d26a7990618f.jpg",
     "static/media/cliff-cabin-10-optimized.jpg": "/static/media/cliff-cabin-10-optimized.f1f4be1a403f3c5ab886.jpg",
+    "static/media/bryllup-4-optimized-kopi.jpg": "/static/media/bryllup-4-optimized-kopi.a5440477a3b5fd7c8259.jpg",
     "static/media/bryllup-4-optimized.jpg": "/static/media/bryllup-4-optimized.ffeb1b6f99c12b26e956.jpg",
     "static/media/social-6-optimized.jpg": "/static/media/social-6-optimized.9a2552400eb057b113b7.jpg",
     "static/media/airbnb-9.jpg": "/static/media/airbnb-9.758d6779b2db5e133a68.jpg",
@@ -145,12 +146,12 @@
     "static/media/tidligere-arbeid-intro-image-optimized.jpg": "/static/media/tidligere-arbeid-intro-image-optimized.e92b9af5cdead47589e6.jpg",
     "static/media/bergill-optimized.jpg": "/static/media/bergill-optimized.6e7e8e8e03d53da7281d.jpg",
     "index.html": "/index.html",
-    "main.ac0b1835.css.map": "/static/css/main.ac0b1835.css.map",
-    "main.240c0de8.js.map": "/static/js/main.240c0de8.js.map",
+    "main.89c06f4c.css.map": "/static/css/main.89c06f4c.css.map",
+    "main.58e380dd.js.map": "/static/js/main.58e380dd.js.map",
     "787.ddf1fbd0.chunk.js.map": "/static/js/787.ddf1fbd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac0b1835.css",
-    "static/js/main.240c0de8.js"
+    "static/css/main.89c06f4c.css",
+    "static/js/main.58e380dd.js"
   ]
 }
